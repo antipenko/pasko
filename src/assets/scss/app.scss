@@ -3,6 +3,8 @@
 @import 'settings';
 @import 'foundation';
 @import 'motion-ui';
+@import 'slick';
+@import 'slick-theme';
 
 @include foundation-global-styles;
 @include foundation-grid;
@@ -13,12 +15,12 @@
 // @include foundation-range-input;
 @include foundation-accordion;
 @include foundation-accordion-menu;
-@include foundation-badge;
-@include foundation-breadcrumbs;
-@include foundation-button-group;
-@include foundation-callout;
-@include foundation-card;
-@include foundation-close-button;
+// @include foundation-badge;
+// @include foundation-breadcrumbs;
+// @include foundation-button-group;
+// @include foundation-callout;
+// @include foundation-card;
+// @include foundation-close-button;
 @include foundation-menu;
 @include foundation-menu-icon;
 @include foundation-drilldown-menu;
@@ -27,19 +29,19 @@
 @include foundation-responsive-embed;
 @include foundation-label;
 @include foundation-media-object;
-@include foundation-off-canvas;
+// @include foundation-off-canvas;
 @include foundation-orbit;
 @include foundation-pagination;
 @include foundation-progress-bar;
 // @include foundation-progress-element;
 // @include foundation-meter-element;
-@include foundation-slider;
-@include foundation-sticky;
-@include foundation-reveal;
-@include foundation-switch;
-@include foundation-table;
-@include foundation-tabs;
-@include foundation-thumbnail;
+// @include foundation-slider;
+// @include foundation-sticky;
+// @include foundation-reveal;
+// @include foundation-switch;
+// @include foundation-table;
+// @include foundation-tabs;
+// @include foundation-thumbnail;
 @include foundation-title-bar;
 @include foundation-tooltip;
 @include foundation-top-bar;
@@ -49,3 +51,123 @@
 
 @include motion-ui-transitions;
 @include motion-ui-animations;
+
+// elements
+.ps-logo{
+	color: white;
+	font-family: Montserrat;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 36px;
+	text-transform: uppercase;
+}
+
+.menu{
+	a {
+		color: #FFF;
+	}
+}
+
+.round{
+	-webkit-border-radius: 100px;
+	        border-radius: 100px;
+}
+.uppercase {
+	text-transform: uppercase;
+}
+//
+
+.ps-top{
+	background: $black; 
+}
+
+.ps-social{
+	margin: 0;
+	&__item{
+		display: inline-block;
+		padding: 0 6px;
+		&:first-child{
+			padding-left: 0;
+		}
+	}
+}
+.ps-setting{
+	.ps-setting__item{
+		a{
+			padding: 0;
+		}
+	}
+
+	&__item{
+		font-size: 14px;
+		text-transform: uppercase;
+		padding-left: 10px;
+		&:first-child{
+			border-right: 1px solid $anchor-color;
+			padding-right: 10px;
+		}
+	}
+}
+
+.ps-header{
+	background-image: url('../img/background.jpg');
+	-webkit-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+    padding-bottom: 4.25rem;
+    min-height: 95vh;
+	.top-bar{
+		background: transparent;
+	}
+}
+.ps-post{
+	padding: 0 11.25rem;
+	&-slider{
+		padding-top: 50px;
+	}
+	&__category {
+		opacity: 0.7;
+		color: white;
+		font-size: 1.5rem;
+		font-variant: small-caps;
+		margin-bottom: 0;
+	}
+	&__title {
+		color: #FFF;
+		font-size: 2.625rem;
+		font-weight: 900;
+		margin-bottom: 2rem;
+	}
+	&__link {
+		margin-bottom: 80px;
+	}
+	&-author {
+		&__img{
+			display: inline-block;
+			padding-bottom: 20px;
+		}
+		&__name {
+			font-weight: 700;
+			color: $white;
+			margin-bottom: 0;
+			display: block;
+		}
+	}
+	&__time {
+		font-size: 0.75rem;
+		color: $time-color;
+	}
+	&-counter{
+		color: $gray;
+		&__like{
+			margin-left: 30px;
+		}
+	}
+}
+
+.slick-arrow {
+	display: none !important;
+}
+.slick-slide:focus {
+	outline: none;
+}
