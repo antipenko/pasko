@@ -60,12 +60,26 @@
 	font-weight: 700;
 	line-height: 36px;
 	text-transform: uppercase;
+	height: 76px;
+	line-height: 76px;
 }
 
 .menu{
-	a {
+	a, .menu-btn{
 		color: #FFF;
+		cursor: pointer;
 	}
+	.menu-btn{
+		padding: 0 14px;
+		&-search{
+			margin-left: 70px;
+		}
+		&-like{
+			border-left: 1px solid $gray;
+			border-right: 1px solid $gray;
+		}
+	}
+
 }
 
 .round{

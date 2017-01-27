@@ -54,10 +54,11 @@
         </div>
     
         <div class="top-bar" id="example-menu">
-          <div class="top-bar-left">
+        <a href="#" class="top-bar-left"><h1 class="ps-logo">Pasco</h1></a>
+          <div class="top-bar-right">
             <ul class="dropdown menu" data-dropdown-menu>
               <!-- **********   1-st menu item   **********-->
-              <li class="menu-text"><h1 class="ps-logo">Pasco</h1></li>
+              <!-- <li class="menu-text"><h1 class="ps-logo">Pasco</h1></li> -->
               <li>
                 <a href="#">Home</a>
                 <ul class="menu vertical">
@@ -120,14 +121,15 @@
                   <li><a href="#">Three</a></li>
                 </ul>
               </li>
-            </ul>
-          </div>
-          <div class="top-bar-right">
-            <ul class="menu">
-              <li><button type="button" class=""><i class="fa fa-search" aria-hidden="true"></i></button></li>
-              <li class="hide"><input type="search" placeholder="Search"></li>
-              <li><button type="button" class=""><i class="fa fa-heart-o" aria-hidden="true"></i></button></li>
-              <li><button type="button" class=""><i class="fa fa-shopping-cart" aria-hidden="true"></i></button></li>
+              <li>
+                <button type="button" class="menu-btn menu-btn-search"><i class="fa fa-search" aria-hidden="true"></i></button>
+              </li>
+              <li>
+                <button type="button" class="menu-btn menu-btn-like"><i class="fa fa-heart-o" aria-hidden="true"></i></button>
+                </li>
+              <li>
+                <a href="#" class="menu-btn menu-btn-cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                </li>
             </ul>
           </div>
         </div>
@@ -186,6 +188,33 @@
         <!-- ***** end slide 2 ***** -->
       </div>
     </header>
+    
+    <section>
+      <div class="top-bar">
+      <div class="top-bar-left">
+        <ul class="dropdown menu" data-dropdown-menu>
+          <li class="menu-text">Site Title</li>
+          <li>
+            <a href="#">One</a>
+            <ul class="menu vertical">
+              <li><a href="#">One</a></li>
+              <li><a href="#">Two</a></li>
+              <li><a href="#">Three</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Two</a></li>
+          <li><a href="#">Three</a></li>
+        </ul>
+      </div>
+      <div class="top-bar-right">
+        <ul class="menu">
+          <li><input type="search" placeholder="Search"></li>
+          <li><button type="button" class="button">Search</button></li>
+        </ul>
+      </div>
+    </div>
+    </section>
+    
     
     <script type="text/javascript" src="assets/js/slick.min.js"></script>
     <script src="assets/js/app.js"></script>
