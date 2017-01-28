@@ -1,7 +1,7 @@
 $(document).foundation();
 
  $(document).ready(function(){
-      $('.ps-post-slider').slick({
+      $('.ps-slider-post').slick({
         
       });
     });
