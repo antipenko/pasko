@@ -8,7 +8,7 @@
 
 @include foundation-global-styles;
 @include foundation-grid;
-// @include foundation-flex-grid;
+@include foundation-flex-grid;
 @include foundation-typography;
 @include foundation-button;
 @include foundation-forms;
@@ -212,6 +212,7 @@
 .ps-section {
 	background: #FFF;
 	box-shadow: 0 1px 0 #ddd;
+	margin-bottom: 31px;
 }
 .ps-sort{
 	padding: 15px 0;
@@ -238,11 +239,10 @@
 }
 
 .ps-blog {
-	padding-top: 31px;
+	padding-left: 0;
 }
 
 .ps-post {
-	// display: flex;
 	-webkit-border-radius: 4px;
 	border-radius: 4px;
 	background-color: #FFF;
@@ -253,10 +253,6 @@
 		position: relative;
 		height: auto;
 		color: #FFF;
-	}
-
-	&__img {
-		
 	}
 	&-meta {
 		position: absolute;
@@ -269,9 +265,12 @@
 			position: absolute;
 			right: 0;
 			display: inline-block;
+			line-height: 1;
 		}
 	}
-	
+	&-content {
+		padding: 0 20px;
+	}
 	&__title{
 		font-size: 1.125rem;
 		color:$post-title-color;
@@ -314,8 +313,15 @@
 		}
 	}
 }
+
+.ps-post_small {
+	.ps-post__title, .ps-post__excerpt{
+		font-size: 0.875rem;
+	}
+	
+}
 // for posts with video
-.haveVideo{
+.hasVideo{
 	.ps-post__link-img:before{
 		position: absolute;
 		content: "";
@@ -337,5 +343,6 @@
 	&:hover .ps-post__link-img:before{
 			width: 60px;
 			height: 60px;
+			
 		}
 }
