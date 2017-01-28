@@ -84,7 +84,7 @@
 
 .round{
 	-webkit-border-radius: 100px;
-	        border-radius: 100px;
+	border-radius: 100px;
 }
 .uppercase {
 	text-transform: uppercase;
@@ -126,10 +126,10 @@
 .ps-header{
 	background-image: url('../img/background.jpg');
 	-webkit-background-size: cover;
-	     -o-background-size: cover;
-	        background-size: cover;
-    padding-bottom: 4.25rem;
-    min-height: 95vh;
+	-o-background-size: cover;
+	background-size: cover;
+	padding-bottom: 4.25rem;
+	min-height: 95vh;
 	.top-bar{
 		background: transparent;
 	}
@@ -176,12 +176,52 @@
 		&__like{
 			margin-left: 30px;
 		}
+		
 	}
 }
 
-.slick-arrow {
-	display: none !important;
+.ps-post-slider{
+	.slick-arrow{
+		width: 13px;
+		height: 22px;
+		background: url(../img/slider-arrow.png) no-repeat 50%;
+	}
+	.slick-prev {
+		transform: rotate(180deg) ;
+	}
+	.slick-slide:focus {
+		outline: none;
+	}
 }
-.slick-slide:focus {
-	outline: none;
+
+// main
+.ps-main {
+	background: whitesmoke;
+}
+.ps-section {
+	background: #FFF;
+	box-shadow: 0 1px 0 #ddd;
+}
+.ps-sort{
+	padding: 15px 0;
+	&__item{
+		background: whitesmoke;
+		margin:0 0 0 15px;
+		color: black;
+		&:hover, &:focus,{
+			border-color: $primary-color;
+			background-color: #FFF;
+			color: $primary-color;
+		}
+		[aria-selected="true"] {
+			border-color: $primary-color;
+			background-color: #FFF;
+			color: $primary-color;
+		}
+	}
+	[aria-selected="true"] {
+		border-color: $primary-color;
+		background-color: #FFF;
+		color: $primary-color;
+	}
 }
