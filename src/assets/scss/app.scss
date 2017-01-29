@@ -64,7 +64,23 @@
 	line-height: 76px;
 }
 
+.top-bar {
+	.submenu {
+		background-color: rgba(0,0,0,.5);
+		left:0;
+		& >li>a {
+			padding:10px 5px;
+			&:hover {
+				background-color: #000;
+			}
+		}
+	}
+}
+
 .menu{
+	a {
+		text-transform: uppercase;
+	}
 	a, .menu-btn{
 		color: #FFF;
 		cursor: pointer;
@@ -91,14 +107,14 @@
 }
 
 .visuallyhidden {
-    border: 0;
-    clip: rect(0 0 0 0);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px;
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
 }	
 //
 
@@ -240,6 +256,35 @@
 
 .ps-blog {
 	padding-left: 0;
+	&-more {
+		&__link{
+		display: inline-block;
+		width: 42px;
+		height: 42px;
+		background-color: white;
+		background-image: url(../img/arrow.png);
+		background-repeat: no-repeat;
+		background-position: center;
+		box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12);
+		position: relative;
+		span {
+			position: absolute;
+			left: -100%;
+			display: inline-block;
+			line-height: 1;
+			height: 12px;
+			top: calc(50% - 6px);
+			color: $primary-color;
+		}
+		&:hover {
+			-webkit-box-shadow: none;
+			box-shadow: none;
+		    span {
+		    	opacity: 0.9;
+		    }
+		}	
+		}
+	}
 }
 
 .ps-post {
@@ -296,7 +341,7 @@
 		&__prop {
 			position: absolute;
 			right: 20px;
-		    top: calc(50% - 8px);
+			top: calc(50% - 8px);
 			height: 16px;
 			width: 4px;
 			background-image: url(../img/prop.png);
@@ -313,7 +358,29 @@
 		}
 	}
 }
-
+.ps-post_horizontal{
+	.ps-post{
+		&__link-img {
+			float: left;
+			margin-right: 10px;
+		}
+		&-content {
+			padding: 10px 20px 0;
+		}
+		&__title {
+			font-size: 1rem;
+			margin: 0;
+		}
+		&__excerpt {
+			font-size: 0.875rem;
+			padding-bottom: 0.875em;
+		}
+		&-info {
+			padding:10px 0;
+			max-height: 70px;
+		}
+	}
+}
 .ps-post_small {
 	.ps-post__title, .ps-post__excerpt{
 		font-size: 0.875rem;
@@ -328,8 +395,8 @@
 		background-image: url(../img/video.png);
 		background-repeat: no-repeat;
 		-webkit-background-size: cover;
-		     -o-background-size: cover;
-		        background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
 		width: 50px;
 		height: 50px;
 		top: 0;
@@ -337,12 +404,13 @@
 		left: 0;
 		right: 0;
 		margin: auto;
-	   -moz-transition:.5s;
-	        transition:.5s;
+		-moz-transition:.5s;
+		transition:.5s;
 	}
 	&:hover .ps-post__link-img:before{
-			width: 60px;
-			height: 60px;
-			
-		}
+		width: 60px;
+		height: 60px;
+
+	}
 }
+

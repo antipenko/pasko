@@ -352,9 +352,9 @@ $dropdown-sizes: (
 $dropdownmenu-arrows: true;
 $dropdownmenu-arrow-color: $white;
 $dropdownmenu-arrow-size: 6px;
-$dropdownmenu-min-width: 200px;
+$dropdownmenu-min-width: 150%;
 $dropdownmenu-background: inherit;
-$dropdownmenu-border: 1px solid transparent;
+$dropdownmenu-border: 1px solid none;
 
 // 19. Forms
 // ---------
