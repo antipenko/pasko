@@ -13,7 +13,7 @@
 
     <div class="ps-top">
       <div class="row top-bar">
-        <ul class="ps-social  top-bar-left">
+        <ul class="ps-social  hide-for-small-only top-bar-left">
           <li class="ps-social__item"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
           <li class="ps-social__item"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
           <li class="ps-social__item"><a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
@@ -54,39 +54,39 @@
         </div>
     
         <div class="top-bar" id="example-menu">
-          <a href="#" class="top-bar-left"><h1 class="ps-logo">Pasco</h1></a>
-          <div class="top-bar-right">
+          <!-- <a href="#" class="top-bar-left"><h1 class="ps-logo">Pasco</h1></a> -->
+          <!-- <div class="top-bar-right"> -->
             <ul class="dropdown menu" data-dropdown-menu '>
               <!-- **********   1-st menu item   **********-->
               <!-- <li class="menu-text"><h1 class="ps-logo">Pasco</h1></li> -->
-              <li >
+              <li  class="menu-item" aria-current="page">
                 <a href="#">Home</a>
                 <ul class="menu vertical">
-                  <li><a href="#">One</a></li>
-                  <li><a href="#">Two</a></li>
-                  <li><a href="#">Three</a></li>
+                  <li><a href="#">home1</a></li>
+                  <li><a href="#">home2</a></li>
                 </ul>
               </li>
               <!-- **********   2 menu item   **********-->
-              <li>
+              <li class="menu-item">
                 <a href="#">Portfolio</a>
                 <ul class="menu vertical">
-                  <li><a href="#">One</a></li>
-                  <li><a href="#">Two</a></li>
-                  <li><a href="#">Three</a></li>
+                  <li><a href="#">Web design</a></li>
+                  <li><a href="#">Videography</a></li>
+                  <li><a href="#">Photography</a></li>
                 </ul>
               </li>
               <!-- **********   3-st menu item   **********-->
-              <li>
+              <li class="menu-item">
                 <a href="#">Blog</a>
                 <ul class="menu vertical">
-                  <li><a href="#">One</a></li>
-                  <li><a href="#">Two</a></li>
-                  <li><a href="#">Three</a></li>
+                  <li><a href="#">Inspiration</a></li>
+                  <li><a href="#">lifestyle</a></li>
+                  <li><a href="#">trip</a></li>
+                  <li><a href="#">photography</a></li>
                 </ul>
               </li>
               <!-- **********   4 menu item   **********-->
-              <li>
+              <li class="menu-item">
                 <a href="#">Pages</a>
                 <ul class="menu vertical">
                   <li><a href="#">Service</a></li>
@@ -95,16 +95,16 @@
                 </ul>
               </li>
               <!-- **********   5 menu item   **********-->
-              <li>
+              <li class="menu-item">
                 <a href="#">Shop</a>
                 <ul class="menu vertical">
-                  <li><a href="#">One</a></li>
+                  <li><a href="#">Illustration</a></li>
                   <li><a href="#">Two</a></li>
-                  <li><a href="#">Three</a></li>
+                  <li><a href="#">Item 1B</a></li>
                 </ul>
               </li>
               <!-- **********   6 menu item   **********-->
-              <li>
+              <li class="menu-item">
                 <a href="#">components</a>
                 <ul class="menu vertical">
                   <li><a href="#">One</a></li>
@@ -113,7 +113,7 @@
                 </ul>
               </li>
               <!-- **********   7 menu item   **********-->
-              <li>
+              <li class="menu-item">
                 <a href="#">features</a>
                 <ul class="menu vertical">
                   <li><a href="#">One</a></li>
@@ -121,8 +121,15 @@
                   <li><a href="#">Three</a></li>
                 </ul>
               </li>
+    
               <li>
                 <button type="button" class="menu-btn menu-btn-search"><i class="fa fa-search" aria-hidden="true"></i></button>
+                <ul class="menu vertical">
+                  <li class="menu-item-button">
+                    <input type="search" class="round" placeholder="Search">
+                    <button type="button" class="ps-search-btn"><i class="fa fa-search" aria-hidden="true"></i></button>
+                  </li>
+                </ul>
               </li>
               <li>
                 <button type="button" class="menu-btn menu-btn-like"><i class="fa fa-heart-o" aria-hidden="true"></i></button>
@@ -131,7 +138,7 @@
                 <a href="#" class="menu-btn menu-btn-cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
               </li>
             </ul>
-          </div>
+          <!-- </div> -->
         </div>
       </div>
     
@@ -202,7 +209,7 @@
       </div>
     
       <section class="row ">
-        <div class="columns medium-8 ps-blog">
+        <div class="columns medium-8 small-12 ps-blog">
           <article class="ps-post flex-container flex-dir-column ps-post_big hasVideo">
             <a href="#" class="ps-post__link ps-post__link-img">
               <img src="../assets/img/post1.jpg" alt="image for post 10 Things To Do To Change Your Life Forever" class="ps-post__img">
@@ -617,14 +624,147 @@
             </div>    
           </aside>
     
-          <aside class="ps-sidebar__item ps-sidebar-post">
+          <aside class="ps-sidebar__item ps-sidebar-tab">
             <h4 class="ps-sidebar__title uppercase">tab post widget</h4>
     
-            <ul class="tabs" data-active-collapse="true" data-tabs id="collapsing-tabs">
-              <li class="tabs-title is-active"><a href="#panel1c" aria-selected="true">recent post</a></li>
-              <li class="tabs-title"><a href="#panel2c">popular post</a></li>
+            <ul class="tabs " data-tabs id="collapsing-tabs">
+              <li class="tabs-title is-active"><a href="#recent" class="uppercase ps-sidebar-tab__button text-center" aria-selected="true">recent post</a></li>
+              <li class="tabs-title"><a href="#popular" class="uppercase ps-sidebar-tab__button text-center">popular post</a></li>
             </ul>
     
+            <div class="tabs-content" data-tabs-content="collapsing-tabs">
+              <div class="tabs-panel is-active" id="recent">
+                <ul >
+                  <li class="ps-sidebar-post">
+                    <a href="">
+                      <img src="../assets/img/wd-post1.jpg" class="float-left ps-sidebar-post__img" alt="Duis commodo elit sed nisi molestie">
+                      <p class="ps-sidebar-post__info">
+                        <time>April 28, 2016</time>
+                        <span class="float-right">
+                          <i class="fa fa-comments" aria-hidden="true"></i>
+                          17
+                        </span>
+                      </p>
+                      <h5 class="ps-sidebar-post__title">Duis commodo elit sed nisi molestie</h5>              
+                    </a>
+                  </li>
+    
+                  <li class="ps-sidebar-post">
+                    <a href="">
+                      <img src="../assets/img/wd-post2.jpg" class="float-left ps-sidebar-post__img" alt="Duis commodo elit sed nisi molestie">
+                      <p class="ps-sidebar-post__info">
+                        <time>April 28, 2016</time>
+                        <span class="float-right">
+                          <i class="fa fa-comments" aria-hidden="true"></i>
+                          17
+                        </span>
+                      </p>
+                      <h5 class="ps-sidebar-post__title">Duis commodo elit sed nisi molestie</h5>              
+                    </a>
+                  </li>
+    
+                  <li class="ps-sidebar-post">
+                    <a href="">
+                      <img src="../assets/img/wd-post3.jpg" class="float-left ps-sidebar-post__img" alt="Duis commodo elit sed nisi molestie">
+                      <p class="ps-sidebar-post__info">
+                        <time>April 28, 2016</time>
+                        <span class="float-right">
+                          <i class="fa fa-comments" aria-hidden="true"></i>
+                          17
+                        </span>
+                      </p>
+                      <h5 class="ps-sidebar-post__title">Duis commodo elit sed nisi molestie</h5>              
+                    </a>
+                  </li>
+                  
+                  <li class="ps-sidebar-post">
+                    <a href="">
+                      <img src="../assets/img/wd-post4.jpg" class="float-left ps-sidebar-post__img" alt="Duis commodo elit sed nisi molestie">
+                      <p class="ps-sidebar-post__info">
+                        <time>April 28, 2016</time>
+                        <span class="float-right">
+                          <i class="fa fa-comments" aria-hidden="true"></i>
+                          17
+                        </span>
+                      </p>
+                      <h5 class="ps-sidebar-post__title">Duis commodo elit sed nisi molestie</h5>              
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="tabs-panel" id="popular">
+                <ul >
+                  <li class="ps-sidebar-post">
+                    <a href="">
+                      <img src="../assets/img/wd-post3.jpg" class="float-left ps-sidebar-post__img" alt="Duis commodo elit sed nisi molestie">
+                      <p class="ps-sidebar-post__info">
+                        <time>April 28, 2016</time>
+                        <span class="float-right">
+                          <i class="fa fa-comments" aria-hidden="true"></i>
+                          17
+                        </span>
+                      </p>
+                      <h5 class="ps-sidebar-post__title">Duis commodo elit sed nisi molestie</h5>              
+                    </a>
+                  </li>
+    
+                  <li class="ps-sidebar-post">
+                    <a href="">
+                      <img src="../assets/img/wd-post2.jpg" class="float-left ps-sidebar-post__img" alt="Duis commodo elit sed nisi molestie">
+                      <p class="ps-sidebar-post__info">
+                        <time>April 28, 2016</time>
+                        <span class="float-right">
+                          <i class="fa fa-comments" aria-hidden="true"></i>
+                          17
+                        </span>
+                      </p>
+                      <h5 class="ps-sidebar-post__title">Duis commodo elit sed nisi molestie</h5>              
+                    </a>
+                  </li>
+    
+                  <li class="ps-sidebar-post">
+                    <a href="">
+                      <img src="../assets/img/wd-post4.jpg" class="float-left ps-sidebar-post__img" alt="Duis commodo elit sed nisi molestie">
+                      <p class="ps-sidebar-post__info">
+                        <time>April 28, 2016</time>
+                        <span class="float-right">
+                          <i class="fa fa-comments" aria-hidden="true"></i>
+                          17
+                        </span>
+                      </p>
+                      <h5 class="ps-sidebar-post__title">Duis commodo elit sed nisi molestie</h5>              
+                    </a>
+                  </li>
+                  
+                  <li class="ps-sidebar-post">
+                    <a href="">
+                      <img src="../assets/img/wd-post1.jpg" class="float-left ps-sidebar-post__img" alt="Duis commodo elit sed nisi molestie">
+                      <p class="ps-sidebar-post__info">
+                        <time>April 28, 2016</time>
+                        <span class="float-right">
+                          <i class="fa fa-comments" aria-hidden="true"></i>
+                          17
+                        </span>
+                      </p>
+                      <h5 class="ps-sidebar-post__title">Duis commodo elit sed nisi molestie</h5>              
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </aside>
+    
+          <aside class="ps-sidebar__item ps-sidebar-tag">
+            <h4 class="ps-sidebar__title uppercase">tags</h4>
+            <div class="ps-sidebar-tag-list">
+              <a href="#" class="ps-sidebar-tag-list__item">Photography</a>
+              <a href="#" class="ps-sidebar-tag-list__item">Webdesign</a>
+              <a href="#" class="ps-sidebar-tag-list__item">Youtube</a>
+              <a href="#" class="ps-sidebar-tag-list__item">Envato</a>
+              <a href="#" class="ps-sidebar-tag-list__item">Art</a>
+              <a href="#" class="ps-sidebar-tag-list__item">Themefotest</a>
+              <a href="#" class="ps-sidebar-tag-list__item">Illustration</a>
+            </div>
           </aside>
         </div>
       </section>
@@ -783,6 +923,39 @@
             <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
             <button class="button uppercase text-center" type="submit">subscribe</button>
           </form>
+        </div>
+      </div>
+    
+      <div class="ps-footer-bar">
+        <div class="row">
+            <div class="top-bar-left">
+              <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Pages</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">components</a></li>
+                <li><a href="#">Features</a></li>
+              </ul>
+            </div>
+            <div class="top-bar-right">
+              <ul class="menu">
+                <li class="menu-item-button">
+                  <input type="search" class="round" placeholder="Search">
+                  <button type="button" class="ps-search-btn"><i class="fa fa-search" aria-hidden="true"></i></button>
+                </li>
+                <li></li>
+                <li class="ps-setting__item">
+                  <a href="#">Eng</a>
+                 <!--  <ul class="menu vertical">
+                    <li><a href="#">Eng</a></li>
+                    <li><a href="#">Rus</a></li>
+                    <li><a href="#">Ger</a></li>
+                  </ul> -->
+                </li>
+              </ul>
+            </div>
         </div>
       </div>
     </footer>
