@@ -331,7 +331,7 @@ $closebutton-color-hover: $black;
 
 $drilldown-transition: transform 0.15s linear;
 $drilldown-arrows: true;
-$drilldown-arrow-color: $primary-color;
+$drilldown-arrow-color: white;
 $drilldown-arrow-size: 6px;
 $drilldown-background: $white;
 
@@ -356,7 +356,7 @@ $dropdown-sizes: (
 $dropdownmenu-arrows: true;
 $dropdownmenu-arrow-color: $white;
 $dropdownmenu-arrow-size: 6px;
-$dropdownmenu-min-width: 150%;
+$dropdownmenu-min-width: 200px;
 $dropdownmenu-background: inherit;
 $dropdownmenu-border: 1px solid none;
 

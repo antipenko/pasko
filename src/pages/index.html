@@ -35,26 +35,29 @@
 
 <header class="ps-header">
   <div class="row">
+
+    <!-- start menu -->
     <div class="title-bar" data-responsive-toggle="example-menu" data-hide-for="medium">
       <button class="menu-icon" type="button" data-toggle="example-menu"></button>
-      <div class="title-bar-title">Menu</div>
+      <div class="title-bar-title">
+        <h1 class="ps-logo">Pasco</h1>
+      </div>
     </div>
 
     <div class="top-bar" id="example-menu">
-      <!-- <a href="#" class="top-bar-left"><h1 class="ps-logo">Pasco</h1></a> -->
-      <!-- <div class="top-bar-right"> -->
-        <ul class="dropdown menu" data-dropdown-menu '>
-          <!-- **********   1-st menu item   **********-->
-          <!-- <li class="menu-text"><h1 class="ps-logo">Pasco</h1></li> -->
-          <li  class="menu-item" aria-current="page">
+      <h1 class="ps-logo top-bar-left hide-for-small-only">Pasco</h1>
+      <div class="top-bar-right">
+        <ul class="dropdown menu vertical medium-horizontal" data-responsive-menu="drilldown medium-dropdown">
+        <!-- **********   1 menu item   **********-->
+          <li aria-current="page">
             <a href="#">Home</a>
             <ul class="menu vertical">
               <li><a href="#">home1</a></li>
               <li><a href="#">home2</a></li>
             </ul>
           </li>
-          <!-- **********   2 menu item   **********-->
-          <li class="menu-item">
+        <!-- **********   2 menu item   **********-->
+          <li>
             <a href="#">Portfolio</a>
             <ul class="menu vertical">
               <li><a href="#">Web design</a></li>
@@ -62,8 +65,8 @@
               <li><a href="#">Photography</a></li>
             </ul>
           </li>
-          <!-- **********   3-st menu item   **********-->
-          <li class="menu-item">
+        <!-- **********   3 menu item   **********-->
+          <li>
             <a href="#">Blog</a>
             <ul class="menu vertical">
               <li><a href="#">Inspiration</a></li>
@@ -72,8 +75,8 @@
               <li><a href="#">photography</a></li>
             </ul>
           </li>
-          <!-- **********   4 menu item   **********-->
-          <li class="menu-item">
+        <!-- **********   4 menu item   **********-->
+          <li>
             <a href="#">Pages</a>
             <ul class="menu vertical">
               <li><a href="#">Service</a></li>
@@ -81,8 +84,8 @@
               <li><a href="#">About</a></li>
             </ul>
           </li>
-          <!-- **********   5 menu item   **********-->
-          <li class="menu-item">
+        <!-- **********   5 menu item   **********-->
+          <li>
             <a href="#">Shop</a>
             <ul class="menu vertical">
               <li><a href="#">Illustration</a></li>
@@ -90,8 +93,8 @@
               <li><a href="#">Item 1B</a></li>
             </ul>
           </li>
-          <!-- **********   6 menu item   **********-->
-          <li class="menu-item">
+        <!-- **********   6 menu item   **********-->
+          <li>
             <a href="#">components</a>
             <ul class="menu vertical">
               <li><a href="#">One</a></li>
@@ -99,8 +102,8 @@
               <li><a href="#">Three</a></li>
             </ul>
           </li>
-          <!-- **********   7 menu item   **********-->
-          <li class="menu-item">
+        <!-- **********   7 menu item   **********-->
+          <li>
             <a href="#">features</a>
             <ul class="menu vertical">
               <li><a href="#">One</a></li>
@@ -109,832 +112,849 @@
             </ul>
           </li>
 
-          <li>
+          <li class="menu-item-button">
             <button type="button" class="menu-btn menu-btn-search"><i class="fa fa-search" aria-hidden="true"></i></button>
             <ul class="menu vertical">
-              <li class="menu-item-button">
+              <li class="menu-search-button">
                 <input type="search" class="round" placeholder="Search">
                 <button type="button" class="ps-search-btn"><i class="fa fa-search" aria-hidden="true"></i></button>
               </li>
             </ul>
           </li>
-          <li>
+          <li class="menu-item-button">
             <button type="button" class="menu-btn menu-btn-like"><i class="fa fa-heart-o" aria-hidden="true"></i></button>
           </li>
-          <li>
+          <li class="menu-item-button">
             <a href="#" class="menu-btn menu-btn-cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
           </li>
         </ul>
-      <!-- </div> -->
-    </div>
-  </div>
-
-
-  <div class="ps-slider-post hide-for-small-only row">
-    <!-- ***** start slide 1 ***** -->
-    <div class="  column ps-slider-post__item text-center">
-      <p class="ps-slider-post__category uppercase">inspiration</p>
-      <h2 class="ps-slider-post__title uppercase">5 Ways milllennials can start building their future today</h2>
-      <a href="#" class="button ps-post__link round uppercase">read more</a>
-      <div class="ps-slider-post-author">
-        <a href="#" class="ps-slider-post-author__img"><img src="../assets/img/author1.jpg" class="round" alt="Henry Little author"></a>
-        <a href="#" class="ps-slider-post-author__name">Henry Little </a>
       </div>
-      <time class="ps-slider-post__time" datetime="2016-04-28 10:15">
-        Apri 28, 2016   10:15
-      </time>
-      <p class="ps-slider-post-counter">
-        <span class="ps-slider-post-counter__comment">
-          <i class="fa fa-comments" aria-hidden="true"></i>
-          Comments (28) 
-        </span>
-        <span class="ps-slider-post-counter__like">
-          <i class="fa fa-heart-o" aria-hidden="true"></i>
-          Likes (07)
-        </span>
-      </p>
     </div>
-    <!-- ***** end slide 1 ***** -->
+    <!-- end menu -->
 
-    <!-- ***** start slide 2 ***** -->
-    <div class=" column  ps-slider-post__item text-center">
-      <p class="ps-slider-post__category uppercase">inspiration</p>
-      <h2 class="ps-slider-post__title uppercase">5 Ways milllennials can start building their future today</h2>
-      <a href="#" class="button ps-post__link round uppercase">read more</a>
-      <div class="ps-slider-post-author">
-        <a href="#" class="ps-slider-post-author__img"><img src="../assets/img/author1.jpg" class="round" alt="Henry Little author"></a>
-        <a href="#" class="ps-slider-post-author__name">Henry Little </a>
+
+    <div class="ps-slider-post hide-for-small-only row">
+      <!-- ***** start slide 1 ***** -->
+      <div class="  column ps-slider-post__item text-center">
+        <p class="ps-slider-post__category uppercase">inspiration</p>
+        <h2 class="ps-slider-post__title uppercase">5 Ways milllennials can start building their future today</h2>
+        <a href="#" class="button ps-post__link round uppercase">read more</a>
+        <div class="ps-slider-post-author">
+          <a href="#" class="ps-slider-post-author__img"><img src="../assets/img/author1.jpg" class="round" alt="Henry Little author"></a>
+          <a href="#" class="ps-slider-post-author__name">Henry Little </a>
+        </div>
+        <time class="ps-slider-post__time" datetime="2016-04-28 10:15">
+          Apri 28, 2016   10:15
+        </time>
+        <p class="ps-slider-post-counter">
+          <span class="ps-slider-post-counter__comment">
+            <i class="fa fa-comments" aria-hidden="true"></i>
+            Comments (28) 
+          </span>
+          <span class="ps-slider-post-counter__like">
+            <i class="fa fa-heart-o" aria-hidden="true"></i>
+            Likes (07)
+          </span>
+        </p>
       </div>
-      <time class="ps-slider-post__time" datetime="2016-04-28 10:15">
-        Apri 28, 2016   10:15
-      </time>
-      <p class="ps-slider-post-counter">
-        <span class="ps-slider-post-counter__comment">
-          <i class="fa fa-comments" aria-hidden="true"></i>
-          Comments (28) 
-        </span>
-        <span class="ps-slider-post-counter__like">
-          <i class="fa fa-heart-o" aria-hidden="true"></i>
-          Likes (07)
-        </span>
-      </p>
-    </div>
-    <!-- ***** end slide 2 ***** -->
+      <!-- ***** end slide 1 ***** -->
+
+      <!-- ***** start slide 2 ***** -->
+      <div class=" column  ps-slider-post__item text-center">
+        <p class="ps-slider-post__category uppercase">inspiration</p>
+        <h2 class="ps-slider-post__title uppercase">5 Ways milllennials can start building their future today</h2>
+        <a href="#" class="button ps-post__link round uppercase">read more</a>
+        <div class="ps-slider-post-author">
+          <a href="#" class="ps-slider-post-author__img"><img src="../assets/img/author1.jpg" class="round" alt="Henry Little author"></a>
+          <a href="#" class="ps-slider-post-author__name">Henry Little </a>
+        </div>
+        <time class="ps-slider-post__time" datetime="2016-04-28 10:15">
+          Apri 28, 2016   10:15
+        </time>
+        <p class="ps-slider-post-counter">
+          <span class="ps-slider-post-counter__comment">
+            <i class="fa fa-comments" aria-hidden="true"></i>
+            Comments (28) 
+          </span>
+          <span class="ps-slider-post-counter__like">
+            <i class="fa fa-heart-o" aria-hidden="true"></i>
+            Likes (07)
+          </span>
+        </p>
+      </div>
+      <!-- ***** end slide 2 ***** -->
   </div>
 </header>
 
-<main class="ps-main">
-  <div class="ps-section">
-    <div class="row colums ps-sort">
-      <span class="uppercase ps-sort__span">sort blog:</span>
-      <button aria-selected="true" class="ps-sort__item round button uppercase">all</button>
-      <button class="ps-sort__item round button uppercase">photography</button>
-      <button class="ps-sort__item round button uppercase">lifestyle</button>
-      <button class="ps-sort__item round button uppercase">trip</button>
-      <button class="ps-sort__item round button uppercase">inspiration</button>
-    </div>
-  </div>
-
-  <section class="row ">
-    <div class="columns medium-8 small-12 ps-blog">
-      <article class="ps-post flex-container flex-dir-column ps-post_big hasVideo">
-        <a href="#" class="ps-post__link ps-post__link-img">
-          <img src="../assets/img/post1.jpg" alt="image for post 10 Things To Do To Change Your Life Forever" class="ps-post__img">
-          <div class="ps-post-meta">
-            <span class="ps-post-meta__category uppercase">lifestyle</span>
-            <p class="ps-post-meta-count">
-              <span class="ps-post-meta__comment">
-                <i class="fa fa-comments" aria-hidden="true"></i>
-                7
-              </span>
-              <span class="ps-post-meta__like text-right">
-                <i class="fa fa-heart-o" aria-hidden="true"></i>
-                15 
-              </span>
-            </p>
-          </div></a>
-          <div class="ps-post-content">
-            <a href="#" class="ps-post__link">
-              <h2 class="ps-post__title">10 Things To Do To Change Your Life Forever</h2>
-            </a> 
-            <p class="ps-post__excerpt">The one constant thing in our life is change. We cannot avoid it and the more we resist change the tougher our life becomes. I know this because I was very skilled at deflecting change in life.</p>
-          </div>
-          <div class="ps-post-info clearfix">
-            <a href="#" class="ps-post-author__link float-left">
-              <img src="../assets/img/author1.jpg" alt="" class="ps-post-author__img">
-            </a>
-            <a href="#" class="ps-post-author__link ps-post-author__name">Henry Little</a>
-            <time class="ps-post-info__time" datetime="2016-04-28 10:15">Apri 28, 2016   10:15</time>
-
-            <button class="ps-post-info__prop">
-              <span class="visuallyhidden">property posts</span>
-            </button>
-          </div>
-      </article>
-
-        <!-- start ps-post_horizontal -->
-
-      <article class="ps-post ps-post_horizontal hasVideo clearfix">
-        <a href="#" class="ps-post__link ps-post__link-img">
-          <img src="../assets/img/post2.jpg" alt="image for post 10 Things To Do To Change Your Life Forever" class="ps-post__img">
-          <div class="ps-post-meta">
-            <span class="ps-post-meta__category uppercase">lifestyle</span>
-            <p class="ps-post-meta-count">
-              <span class="ps-post-meta__comment">
-                <i class="fa fa-comments" aria-hidden="true"></i>
-                7
-              </span>
-              <span class="ps-post-meta__like text-right">
-                <i class="fa fa-heart-o" aria-hidden="true"></i>
-                15 
-              </span>
-            </p>
-          </div>
-        </a>
-        <div class="ps-post-content">
-          <a href="#" class="ps-post__link">
-            <h2 class="ps-post__title">4 Natural Ways To Have Young Skin</h2>
-          </a> 
-          <p class="ps-post__excerpt">Lorem ipsum dolor sit amet, to consectetur  adipi scing elit. Nulla vehicula lorem and lacus. Vestibulum vitae mauris lorem ipsum doar.</p>
+  <main class="ps-main">
+    <div class="ps-section">
+      <div class="row colums ps-sort">
+        <div class="ps-sort-btns hide-for-small-only">
+          <span class="uppercase ps-sort__span">sort blog:</span>
+          <button aria-selected="true" class="ps-sort__item round button uppercase" value="all" >all</button>
+          <button class="ps-sort__item round button uppercase" value="photography" >photography</button>
+          <button class="ps-sort__item round button uppercase" value="lifestyle" >lifestyle</button>
+          <button class="ps-sort__item round button uppercase" value="trip" >trip</button>
+          <button class="ps-sort__item round button uppercase" value="inspiration" >inspiration</button>
         </div>
-        <div class="ps-post-info clearfix">
-          <a href="#" class="ps-post-author__link float-left">
-            <img src="../assets/img/author1.jpg" alt="" class="ps-post-author__img">
-          </a>
-          <a href="#" class="ps-post-author__link ps-post-author__name">Henry Little</a>
-          <time class="ps-post-info__time" datetime="2016-04-28 10:15">Apri 28, 2016   10:15</time>
 
-          <button class="ps-post-info__prop">
-            <span class="visuallyhidden">property posts</span>
-          </button>
-        </div>
-      </article>
-
-      <article class="ps-post ps-post_horizontal clearfix">
-        <a href="#" class="ps-post__link ps-post__link-img">
-          <img src="../assets/img/post4.jpg" alt="image for post 10 Things To Do To Change Your Life Forever" class="ps-post__img">
-          <div class="ps-post-meta">
-            <span class="ps-post-meta__category uppercase">lifestyle</span>
-            <p class="ps-post-meta-count">
-              <span class="ps-post-meta__comment">
-                <i class="fa fa-comments" aria-hidden="true"></i>
-                7
-              </span>
-              <span class="ps-post-meta__like text-right">
-                <i class="fa fa-heart-o" aria-hidden="true"></i>
-                15 
-              </span>
-            </p>
-          </div>
-        </a>
-        <div class="ps-post-content">
-          <a href="#" class="ps-post__link">
-            <h2 class="ps-post__title">Six Hobbies That Can Help You Beat Stress</h2>
-          </a> 
-          <p class="ps-post__excerpt">Lorem ipsum dolor sit amet, to consectetur  adipi scing elit. Nulla vehicula lorem and lacus. Vestibulum vitae mauris lorem ipsum doar.</p>
-        </div>
-        <div class="ps-post-info clearfix">
-          <a href="#" class="ps-post-author__link float-left">
-            <img src="../assets/img/author4.jpg" alt="" class="ps-post-author__img">
-          </a>
-          <a href="#" class="ps-post-author__link ps-post-author__name">James Leman</a>
-          <time class="ps-post-info__time" datetime="2016-04-28 10:15">Apri 28, 2016   10:15</time>
-
-          <button class="ps-post-info__prop">
-            <span class="visuallyhidden">property posts</span>
-          </button>
-        </div>
-      </article>
-
-      <article class="ps-post ps-post_horizontal clearfix">
-        <a href="#" class="ps-post__link ps-post__link-img">
-          <img src="../assets/img/post5.jpg" alt="image for post 10 Things To Do To Change Your Life Forever" class="ps-post__img">
-          <div class="ps-post-meta">
-            <span class="ps-post-meta__category uppercase">lifestyle</span>
-            <p class="ps-post-meta-count">
-              <span class="ps-post-meta__comment">
-                <i class="fa fa-comments" aria-hidden="true"></i>
-                7
-              </span>
-              <span class="ps-post-meta__like text-right">
-                <i class="fa fa-heart-o" aria-hidden="true"></i>
-                15 
-              </span>
-            </p>
-          </div>
-        </a>
-        <div class="ps-post-content">
-          <a href="#" class="ps-post__link">
-            <h2 class="ps-post__title">10 Singals From Your Body Telling You Should Sleep More</h2>
-          </a> 
-          <p class="ps-post__excerpt">Lorem ipsum dolor sit amet, to consectetur  adipi scing elit. Nulla vehicula lorem and lacus. Vestibulum vitae mauris lorem ipsum doar.</p>
-        </div>
-        <div class="ps-post-info clearfix">
-          <a href="#" class="ps-post-author__link float-left">
-            <img src="../assets/img/author2.jpg" alt="" class="ps-post-author__img">
-          </a>
-          <a href="#" class="ps-post-author__link ps-post-author__name">Benjamin Miller</a>
-          <time class="ps-post-info__time" datetime="2016-04-28 10:15">Apri 28, 2016   10:15</time>
-
-          <button class="ps-post-info__prop">
-            <span class="visuallyhidden">property posts</span>
-          </button>
-        </div>
-      </article>
-
-        <!-- end ps-post_horizontal -->
-        
-        <!-- start vertical small -->
-        <div class="row">
-          <div class="columns medium-4">
-            <article class="ps-post flex-container flex-dir-column ps-post_small hasVideo">
-              <a href="#" class="ps-post__link ps-post__link-img">
-                <img src="../assets/img/post6.jpg" alt="image for post 10 Things To Do To Change Your Life Forever" class="ps-post__img">
-                <div class="ps-post-meta">
-                  <span class="ps-post-meta__category uppercase">lifestyle</span>
-                  <p class="ps-post-meta-count">
-                    <span class="ps-post-meta__comment">
-                      <i class="fa fa-comments" aria-hidden="true"></i>
-                      7
-                    </span>
-                    <span class="ps-post-meta__like text-right">
-                      <i class="fa fa-heart-o" aria-hidden="true"></i>
-                      15
-                    </span>
-                  </p>
-                </div></a>
-                <div class="ps-post-content">
-                  <a href="#" class="ps-post__link">
-                    <h2 class="ps-post__title">
-                      Food That Actually Taste 
-                      Better When You Freeze 
-                    </h2>
-                  </a> 
-                  <p class="ps-post__excerpt">Lorem ipsum dolor sit amet, to consectetur  adipi scing elit. Nulla vel vehicula lorem and lacus. Vestibulum vitae mauris. </p>
-                </div>
-                <div class="ps-post-info clearfix">
-                  <a href="#" class="ps-post-author__link float-left">
-                    <img src="../assets/img/author3.jpg" alt="James Leman" class="ps-post-author__img">
-                  </a>
-                  <a href="#" class="ps-post-author__link ps-post-author__name">James Leman</a>
-                  <time class="ps-post-info__time" datetime="2016-04-28 10:15">Apri 28, 2016   10:15</time>
-
-                  <button class="ps-post-info__prop">
-                    <span class="visuallyhidden">property posts</span>
-                  </button>
-                </div>
-            </article>
-          </div>
-          <div class="columns medium-4">
-            <article class="ps-post flex-container flex-dir-column ps-post_small hasVideo">
-              <a href="#" class="ps-post__link ps-post__link-img">
-                <img src="../assets/img/post7.jpg" alt="image for post 10 Things To Do To Change Your Life Forever" class="ps-post__img">
-                <div class="ps-post-meta">
-                  <span class="ps-post-meta__category uppercase">trip</span>
-                  <p class="ps-post-meta-count">
-                    <span class="ps-post-meta__comment">
-                      <i class="fa fa-comments" aria-hidden="true"></i>
-                      7
-                    </span>
-                    <span class="ps-post-meta__like text-right">
-                      <i class="fa fa-heart-o" aria-hidden="true"></i>
-                      15
-                    </span>
-                  </p>
-                </div>
-              </a>
-              <div class="ps-post-content">
-                <a href="#" class="ps-post__link">
-                  <h2 class="ps-post__title">Why It’s Amazing To Date People Who Love Traveling</h2>
-                </a> 
-                <p class="ps-post__excerpt">Lorem ipsum dolor sit amet, to consectetur  adipi scing elit. Nulla vel vehicula lorem and lacus. Vestibulum vitae mauris.</p>
-              </div>
-              <div class="ps-post-info clearfix">
-                <a href="#" class="ps-post-author__link float-left">
-                  <img src="../assets/img/author4.jpg" alt="" class="ps-post-author__img">
-                </a>
-                <a href="#" class="ps-post-author__link ps-post-author__name">Benjamin Miller</a>
-                <time class="ps-post-info__time" datetime="2016-04-28 10:15">Apri 28, 2016   10:15</time>
-
-                <button class="ps-post-info__prop">
-                  <span class="visuallyhidden">property posts</span>
-                </button>
-              </div>
-            </article>
-          </div>
-          <div class="columns medium-4">
-            <article class="ps-post flex-container flex-dir-column ps-post_small sVideo">
-              <a href="#" class="ps-post__link ps-post__link-img">
-                <img src="../assets/img/post8.jpg" alt="image for post 10 Things To Do To Change Your Life Forever" class="ps-post__img">
-                <div class="ps-post-meta">
-                  <span class="ps-post-meta__category uppercase">lifestyle</span>
-                  <p class="ps-post-meta-count">
-                    <span class="ps-post-meta__comment">
-                      <i class="fa fa-comments" aria-hidden="true"></i>
-                      7
-                    </span>
-                    <span class="ps-post-meta__like text-right">
-                      <i class="fa fa-heart-o" aria-hidden="true"></i>
-                      15
-                    </span>
-                  </p>
-                </div></a>
-                <div class="ps-post-content">
-                  <a href="#" class="ps-post__link">
-                    <h2 class="ps-post__title">5 Useful Tips for Novice Painters</h2>
-                  </a> 
-                  <p class="ps-post__excerpt">Lorem ipsum dolor sit amet, to consectetur  adipi scing elit. Nulla vel vehicula lorem and lacus. Vestibulum vitae mauris. </p>
-                </div>
-                <div class="ps-post-info clearfix">
-                  <a href="#" class="ps-post-author__link float-left">
-                    <img src="../assets/img/author1.jpg" alt="" class="ps-post-author__img">
-                  </a>
-                  <a href="#" class="ps-post-author__link ps-post-author__name">Henry Little</a>
-                  <time class="ps-post-info__time" datetime="2016-04-28 10:15">Apri 28, 2016   10:15</time>
-
-                  <button class="ps-post-info__prop">
-                    <span class="visuallyhidden">property posts</span>
-                  </button>
-                </div>
-            </article>
-          </div>
-         </div>
-        <!-- end vertical small -->
-
-        <!-- start vertical middle -->
-        <div class="row">
-          <div class="columns medium-6">
-            <article class="ps-post flex-container flex-dir-column ps-post hasVideo">
-              <a href="#" class="ps-post__link ps-post__link-img">
-                <img src="../assets/img/post9.jpg" alt="image for post 10 Things To Do To Change Your Life Forever" class="ps-post__img">
-                <div class="ps-post-meta">
-                  <span class="ps-post-meta__category uppercase">trip</span>
-                  <p class="ps-post-meta-count">
-                    <span class="ps-post-meta__comment">
-                      <i class="fa fa-comments" aria-hidden="true"></i>
-                      7
-                    </span>
-                    <span class="ps-post-meta__like text-right">
-                      <i class="fa fa-heart-o" aria-hidden="true"></i>
-                      15
-                    </span>
-                  </p>
-                </div>
-              </a>
-              <div class="ps-post-content">
-                <a href="#" class="ps-post__link">
-                  <h2 class="ps-post__title">Why It’s Amazing To Date People Who Love Traveling</h2>
-                </a> 
-                <p class="ps-post__excerpt">Lorem ipsum dolor sit amet, to consectetur  adipi scing elit. Nulla vel vehicula lorem and lacus. Vestibulum vitae mauris.</p>
-              </div>
-              <div class="ps-post-info clearfix">
-                <a href="#" class="ps-post-author__link float-left">
-                  <img src="../assets/img/author4.jpg" alt="" class="ps-post-author__img">
-                </a>
-                <a href="#" class="ps-post-author__link ps-post-author__name">Benjamin Miller</a>
-                <time class="ps-post-info__time" datetime="2016-04-28 10:15">Apri 28, 2016   10:15</time>
-
-                <button class="ps-post-info__prop">
-                  <span class="visuallyhidden">property posts</span>
-                </button>
-              </div>
-            </article>
-          </div>
-
-          <div class="columns medium-6">
-            <article class="ps-post flex-container flex-dir-column ps-post haveVideo">
-              <a href="#" class="ps-post__link ps-post__link-img">
-                <img src="../assets/img/post10.jpg" alt="image for post 10 Things To Do To Change Your Life Forever" class="ps-post__img">
-                <div class="ps-post-meta">
-                  <span class="ps-post-meta__category uppercase">lifestyle</span>
-                  <p class="ps-post-meta-count">
-                    <span class="ps-post-meta__comment">
-                      <i class="fa fa-comments" aria-hidden="true"></i>
-                      7
-                    </span>
-                    <span class="ps-post-meta__like text-right">
-                      <i class="fa fa-heart-o" aria-hidden="true"></i>
-                      15
-                    </span>
-                  </p>
-                </div>
-              </a>
-              <div class="ps-post-content">
-                <a href="#" class="ps-post__link">
-                  <h2 class="ps-post__title">5 Useful Tips for Novice Painters</h2>
-                </a> 
-                <p class="ps-post__excerpt">Lorem ipsum dolor sit amet, to consectetur  adipi scing elit. Nulla vel vehicula lorem and lacus. Vestibulum vitae mauris. </p>
-              </div>
-              <div class="ps-post-info clearfix">
-                <a href="#" class="ps-post-author__link float-left">
-                  <img src="../assets/img/author1.jpg" alt="" class="ps-post-author__img">
-                </a>
-                <a href="#" class="ps-post-author__link ps-post-author__name">Henry Little</a>
-                <time class="ps-post-info__time" datetime="2016-04-28 10:15">Apri 28, 2016   10:15</time>
-
-                <button class="ps-post-info__prop">
-                  <span class="visuallyhidden">property posts</span>
-                </button>
-              </div>
-            </article>
-          </div>
-        </div>
-            <!-- end vertical small -->
-
-        <p class="ps-blog-more text-right"> 
-          <a href="#" class="ps-blog-more__link round">
-            <span>More
-            </a>
-          </p>
-    </div>
-
-    <div class="columns medium-4 ps-sidebar">
-      <aside class="ps-sidebar-search ps-sidebar__item">
-        <input type="search" class="ps-sidebar-search__input round" placeholder="Search">
-        <button type="submit" class="round ps-sidebar-search__button"><i class="fa fa-search" aria-hidden="true"></i></button>
-      </aside>
-
-      <aside class="ps-sidebar__item ps-sidebar-category">
-        <h4 class="ps-sidebar__title uppercase">categories</h4>
-        <ul class="ps-category-list">
-          <li class="ps-category-list__item">
-            <a href="#">Photography</a>
-            <b class="ps-category-count">195</b>
-          </li>
-          <li class="ps-category-list__item">
-            <a href="#">Illustration</a>
-            <b class="ps-category-count">15</b>
-          </li>
-          <li class="ps-category-list__item">
-            <a href="#">Graphic Design</a>
-            <b class="ps-category-count">36</b>
-          </li>
-          <li class="ps-category-list__item">
-            <a href="#">Web design</a>
-            <b class="ps-category-count">220</b>
-          </li>
-          <li class="ps-category-list__item">
-            <a href="#">Videography</a>
-            <b class="ps-category-count">17</b>
-          </li>
-        </ul>
-      </aside>
-
-      <aside class="ps-sidebar__item ps-sidebar-subscribe">
-        <h4 class="ps-sidebar__title uppercase">subcribe </h4>
-        <div class="aside-form">
-          <form action="#" method="post" class="ps-sidebar-subscribe__form">
-              <label for="sb-name">
-                <span>Name</span>
-                <input type="text" id="sb-name" placeholder="Igor Ten" required>
-              </label>
-
-              <label for="sb-email">
-                <span>Email</span>
-                <input type="email" id="sb-email" placeholder="email@adress.com" required>
-              </label>
-
-              <button type="submit" class="uppercase button">subcribe</button>
-          </form> 
-
-        </div>
-        <div class="aside-social">
-          <ul class="ps-social">
-            <li class="ps-social__item "><a href="#" class="ps-social__link ps-social__link_fb"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-            <li class="ps-social__item "><a href="#" class="ps-social__link ps-social__link_tw"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-            <li class="ps-social__item "><a href="#" class="ps-social__link ps-social__link_vk"><i class="fa fa-vk" aria-hidden="true"></i></a></li>
-            <li class="ps-social__item "><a href="#" class="ps-social__link ps-social__link_pn"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
-            <li class="ps-social__item "><a href="#" class="ps-social__link ps-social__link_tr"><i class="fa fa-tumblr" aria-hidden="true"></i></a></li>
-            
-            <li class="ps-social__item "><a href="#" class="ps-social__link ps-social__link_dr"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
-          </ul>    
-        </div>    
-      </aside>
-
-      <aside class="ps-sidebar__item ps-sidebar-tab">
-        <h4 class="ps-sidebar__title uppercase">tab post widget</h4>
-
-        <ul class="tabs " data-tabs id="collapsing-tabs">
-          <li class="tabs-title is-active"><a href="#recent" class="uppercase ps-sidebar-tab__button text-center" aria-selected="true">recent post</a></li>
-          <li class="tabs-title"><a href="#popular" class="uppercase ps-sidebar-tab__button text-center">popular post</a></li>
-        </ul>
-
-        <div class="tabs-content" data-tabs-content="collapsing-tabs">
-          <div class="tabs-panel is-active" id="recent">
-            <ul >
-              <li class="ps-sidebar-post">
-                <a href="">
-                  <img src="../assets/img/wd-post1.jpg" class="float-left ps-sidebar-post__img" alt="Duis commodo elit sed nisi molestie">
-                  <p class="ps-sidebar-post__info">
-                    <time>April 28, 2016</time>
-                    <span class="float-right">
-                      <i class="fa fa-comments" aria-hidden="true"></i>
-                      17
-                    </span>
-                  </p>
-                  <h5 class="ps-sidebar-post__title">Duis commodo elit sed nisi molestie</h5>              
-                </a>
-              </li>
-
-              <li class="ps-sidebar-post">
-                <a href="">
-                  <img src="../assets/img/wd-post2.jpg" class="float-left ps-sidebar-post__img" alt="Duis commodo elit sed nisi molestie">
-                  <p class="ps-sidebar-post__info">
-                    <time>April 28, 2016</time>
-                    <span class="float-right">
-                      <i class="fa fa-comments" aria-hidden="true"></i>
-                      17
-                    </span>
-                  </p>
-                  <h5 class="ps-sidebar-post__title">Duis commodo elit sed nisi molestie</h5>              
-                </a>
-              </li>
-
-              <li class="ps-sidebar-post">
-                <a href="">
-                  <img src="../assets/img/wd-post3.jpg" class="float-left ps-sidebar-post__img" alt="Duis commodo elit sed nisi molestie">
-                  <p class="ps-sidebar-post__info">
-                    <time>April 28, 2016</time>
-                    <span class="float-right">
-                      <i class="fa fa-comments" aria-hidden="true"></i>
-                      17
-                    </span>
-                  </p>
-                  <h5 class="ps-sidebar-post__title">Duis commodo elit sed nisi molestie</h5>              
-                </a>
-              </li>
-              
-              <li class="ps-sidebar-post">
-                <a href="">
-                  <img src="../assets/img/wd-post4.jpg" class="float-left ps-sidebar-post__img" alt="Duis commodo elit sed nisi molestie">
-                  <p class="ps-sidebar-post__info">
-                    <time>April 28, 2016</time>
-                    <span class="float-right">
-                      <i class="fa fa-comments" aria-hidden="true"></i>
-                      17
-                    </span>
-                  </p>
-                  <h5 class="ps-sidebar-post__title">Duis commodo elit sed nisi molestie</h5>              
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div class="tabs-panel" id="popular">
-            <ul >
-              <li class="ps-sidebar-post">
-                <a href="">
-                  <img src="../assets/img/wd-post3.jpg" class="float-left ps-sidebar-post__img" alt="Duis commodo elit sed nisi molestie">
-                  <p class="ps-sidebar-post__info">
-                    <time>April 28, 2016</time>
-                    <span class="float-right">
-                      <i class="fa fa-comments" aria-hidden="true"></i>
-                      17
-                    </span>
-                  </p>
-                  <h5 class="ps-sidebar-post__title">Duis commodo elit sed nisi molestie</h5>              
-                </a>
-              </li>
-
-              <li class="ps-sidebar-post">
-                <a href="">
-                  <img src="../assets/img/wd-post2.jpg" class="float-left ps-sidebar-post__img" alt="Duis commodo elit sed nisi molestie">
-                  <p class="ps-sidebar-post__info">
-                    <time>April 28, 2016</time>
-                    <span class="float-right">
-                      <i class="fa fa-comments" aria-hidden="true"></i>
-                      17
-                    </span>
-                  </p>
-                  <h5 class="ps-sidebar-post__title">Duis commodo elit sed nisi molestie</h5>              
-                </a>
-              </li>
-
-              <li class="ps-sidebar-post">
-                <a href="">
-                  <img src="../assets/img/wd-post4.jpg" class="float-left ps-sidebar-post__img" alt="Duis commodo elit sed nisi molestie">
-                  <p class="ps-sidebar-post__info">
-                    <time>April 28, 2016</time>
-                    <span class="float-right">
-                      <i class="fa fa-comments" aria-hidden="true"></i>
-                      17
-                    </span>
-                  </p>
-                  <h5 class="ps-sidebar-post__title">Duis commodo elit sed nisi molestie</h5>              
-                </a>
-              </li>
-              
-              <li class="ps-sidebar-post">
-                <a href="">
-                  <img src="../assets/img/wd-post1.jpg" class="float-left ps-sidebar-post__img" alt="Duis commodo elit sed nisi molestie">
-                  <p class="ps-sidebar-post__info">
-                    <time>April 28, 2016</time>
-                    <span class="float-right">
-                      <i class="fa fa-comments" aria-hidden="true"></i>
-                      17
-                    </span>
-                  </p>
-                  <h5 class="ps-sidebar-post__title">Duis commodo elit sed nisi molestie</h5>              
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </aside>
-
-      <aside class="ps-sidebar__item ps-sidebar-tag">
-        <h4 class="ps-sidebar__title uppercase">tags</h4>
-        <div class="ps-sidebar-tag-list">
-          <a href="#" class="ps-sidebar-tag-list__item">Photography</a>
-          <a href="#" class="ps-sidebar-tag-list__item">Webdesign</a>
-          <a href="#" class="ps-sidebar-tag-list__item">Youtube</a>
-          <a href="#" class="ps-sidebar-tag-list__item">Envato</a>
-          <a href="#" class="ps-sidebar-tag-list__item">Art</a>
-          <a href="#" class="ps-sidebar-tag-list__item">Themefotest</a>
-          <a href="#" class="ps-sidebar-tag-list__item">Illustration</a>
-        </div>
-      </aside>
-    </div>
-  </section>
-
-  <section class="ps-instagram">
-    <div class='ps-instagram__item'><img src="../assets/img/ins1.jpg" alt="photo from instagram"></div>
-    <div class='ps-instagram__item'><img src="../assets/img/ins2.jpg" alt="photo from instagram"></div>
-    <div class='ps-instagram__item'><img src="../assets/img/ins3.jpg" alt="photo from instagram"></div>
-    <div class='ps-instagram__item'><img src="../assets/img/ins4.jpg" alt="photo from instagram"></div>
-    <div class='ps-instagram__item'><img src="../assets/img/ins5.jpg" alt="photo from instagram"></div>
-    <div class='ps-instagram__item'><img src="../assets/img/ins6.jpg" alt="photo from instagram"></div>
-    <div class='ps-instagram__item'><img src="../assets/img/ins7.jpg" alt="photo from instagram"></div>
-    <div class='ps-instagram__item'><img src="../assets/img/ins8.jpg" alt="photo from instagram"></div>
-  </section>
-
-  <section class="ps-subscribe">
-    <div class="row">
-      <h3 class="ps-subscribe__title columns medium-7">Subscribe to our newsletter</h3>
-      <form action="#" method="post" class="ps-subscribe__form columns medium-5">
-        <input  type="email" class="ps-subscribe__input round" required placeholder="Email Address">
-        <button class="button ps-subscribe__button uppercase round text-center" type="submit">subscribe</button>
-      </form>
-    </div>
-  </section>
-</main>
-
-<footer class="ps-footer">
-  <div class="row ps-widget">
-    <div class="columns medium-3 ps-widget__pages">
-      <h4 class="ps-widget__title uppercase">pages widget</h4>
-
-      <ul class="vertical menu ps-widget-menu" data-accordion-menu>
-        <li>
-          <a href="#">home</a>
-          <ul class="menu vertical nested">
-            <li><a href="#">home 1</a></li>
-            <li><a href="#">home 2</a></li>
-          </ul>
-        </li>
-        <li>
-          <a href="#">pages</a>
-          <ul class="menu vertical nested">
-            <li><a href="#">Service</a></li>
-            <li><a href="#">FAQ</a></li>
-            <li><a href="#">About</a></li>
-          </ul>
-        </li>
-        <li>
-          <a href="#">portfolio</a>
-          <ul class="menu vertical nested">
-            <li><a href="#">Web design</a></li>
-            <li><a href="#">Videography</a></li>
-            <li><a href="#">Photography</a></li>
-          </ul>
-        </li>
-        <li>
-          <a href="#">blog</a>
-          <ul class="menu vertical nested">
-            <li><a href="#">Inspiration</a></li>
-            <li><a href="#">lifestyle</a></li>
-            <li><a href="#">trip</a></li>
-            <li><a href="#">photography</a></li>
-          </ul>
-        </li>
-        <li>
-          <a href="#">shop</a>
-          <ul class="menu vertical nested">
-            <li><a href="#">Illustration</a></li>
-            <li><a href="#">Item 1B</a></li>
-          </ul>
-        </li>            
-      </ul>
-
-    </div>
-
-    <div class="columns medium-3 ps-widget__social ps-widget">
-      <h4 class="ps-widget__title uppercase">twitter widget</h4>
-
-      <ul class="ps-widget-tw">
-        <li class="ps-widget-tw-item">
-          <p class="ps-widget-tw-item__mes">
-            <a href="#" class="ps-widget-tw-item__link float-left"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-            <a href="#">@PASCO</a>, Duis commodo elit sed nisi molestie
-          </p>
-          <p class="ps-widget-tw-info">
-            <time class="ps-widget-tw__time">2 hours ago </time>
-            →  
-            <button class="ps-widget-tw__button">Reply</button>
-            <button class="ps-widget-tw__button">Retweet</button>
-            <button class="ps-widget-tw__button">Favorite</button>
-          </p>
-        </li>
-
-        <li class="ps-widget-tw-item">
-          <p class="ps-widget-tw-item__mes">
-            <a href="#" class="ps-widget-tw-item__link float-left"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-            <a href="#">@PASCO</a>, Duis commodo elit sed nisi molestie
-          </p>
-          <p class="ps-widget-tw-info">
-            <time class="ps-widget-tw__time">2 hours ago </time>
-            →  
-            <button class="ps-widget-tw__button">Reply</button>
-            <button class="ps-widget-tw__button">Retweet</button>
-            <button class="ps-widget-tw__button">Favorite</button>
-          </p>
-        </li>
-        <li class="ps-widget-tw-item">
-          <p class="ps-widget-tw-item__mes">
-            <a href="#" class="ps-widget-tw-item__link float-left"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-            <a href="#">@PASCO</a>, Duis commodo elit sed nisi molestie
-          </p>
-          <p class="ps-widget-tw-info">
-            <time class="ps-widget-tw__time">2 hours ago </time>
-            →  
-            <button class="ps-widget-tw__button">Reply</button>
-            <button class="ps-widget-tw__button">Retweet</button>
-            <button class="ps-widget-tw__button">Favorite</button>
-          </p>
-        </li>
-      </ul>
-
-      <h4 class="ps-widget__title uppercase">social widget</h4>
-
-      <ul class="ps-social">
-        <li class="ps-social__item "><a href="#" class="ps-social__link ps-social__link_fb"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-        <li class="ps-social__item "><a href="#" class="ps-social__link ps-social__link_tw"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-        <li class="ps-social__item "><a href="#" class="ps-social__link ps-social__link_vk"><i class="fa fa-vk" aria-hidden="true"></i></a></li>
-        <li class="ps-social__item "><a href="#" class="ps-social__link ps-social__link_pn"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
-        <li class="ps-social__item "><a href="#" class="ps-social__link ps-social__link_tr"><i class="fa fa-tumblr" aria-hidden="true"></i></a></li>
-        
-        <li class="ps-social__item "><a href="#" class="ps-social__link ps-social__link_dr"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
-      </ul>
-    </div>
-
-    <div class="columns medium-3 ps-widget-flickr">
-      <h4 class="ps-widget__title uppercase">flickr widget</h4>
-
-      <div class="ps-widget-flickr-list">
-        <a href="#"><img src="../assets/img/fl1.jpg" alt="photo from flicker"></a>
-        <a href="#"><img src="../assets/img/fl2.jpg" alt="photo from flicker"></a>
-        <a href="#"><img src="../assets/img/fl3.jpg" alt="photo from flicker"></a>
-        <a href="#"><img src="../assets/img/fl4.jpg" alt="photo from flicker"></a>
-        <a href="#"><img src="../assets/img/fl5.jpg" alt="photo from flicker"></a>
-        <a href="#"><img src="../assets/img/fl6.jpg" alt="photo from flicker"></a>
-        <a href="#"><img src="../assets/img/fl7.jpg" alt="photo from flicker"></a>
-        <a href="#"><img src="../assets/img/fl8.jpg" alt="photo from flicker"></a>
-        <a href="#"><img src="../assets/img/fl9.jpg" alt="photo from flicker"></a>
+          <select class="ps-sort-select show-for-small-only" size=1>
+            <option class="ps-sort__item " value="all" >all</option>
+            <option class="ps-sort__item " value="photography" >photography</option>
+            <option class="ps-sort__item " value="lifestyle"  selected>lifestyle</option>
+            <option class="ps-sort__item " value="trip" >trip</option>
+            <option class="ps-sort__item " value="inspiration" >inspiration</option>
+          </select>
       </div>
     </div>
-    <div class="columns medium-3 ps-widget__form">
-      <h4 class="ps-widget__title uppercase">news letter</h4>
 
-      <form action="#" method="post" class="ps-form">
-        <input type="text" required placeholder="Name">
-        <input  type="email" name="email" required placeholder="Email Address">
-        <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
-        <button class="button uppercase text-center" type="submit">subscribe</button>
-      </form>
-    </div>
-  </div>
+    <section class="row ">
+      <div class="columns medium-8 small-12 ps-blog">
 
-  <div class="ps-footer-bar">
-    <div class="row">
-        <div class="top-bar-left">
-          <ul class="menu">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Pages</a></li>
-            <li><a href="#">Shop</a></li>
-            <li><a href="#">components</a></li>
-            <li><a href="#">Features</a></li>
-          </ul>
+        <div class="column medium-12 small-12 ps-post-num">
+          <article class=" ps-post flex-container flex-dir-column ps-post_big hasVideo">
+          <a href="#" class="ps-post__link ps-post__link-img">
+            <img src="../assets/img/post1.jpg" alt="image for post 10 Things To Do To Change Your Life Forever" class="ps-post__img">
+            <div class="ps-post-meta">
+              <span class="ps-post-meta__category uppercase">lifestyle</span>
+              <p class="ps-post-meta-count">
+                <span class="ps-post-meta__comment">
+                  <i class="fa fa-comments" aria-hidden="true"></i>
+                  7
+                </span>
+                <span class="ps-post-meta__like text-right">
+                  <i class="fa fa-heart-o" aria-hidden="true"></i>
+                  15 
+                </span>
+              </p>
+            </div></a>
+            <div class="ps-post-content">
+              <a href="#" class="ps-post__link">
+                <h2 class="ps-post__title">10 Things To Do To Change Your Life Forever</h2>
+              </a> 
+              <p class="ps-post__excerpt">The one constant thing in our life is change. We cannot avoid it and the more we resist change the tougher our life becomes. I know this because I was very skilled at deflecting change in life.</p>
+            </div>
+            <div class="ps-post-info clearfix">
+              <a href="#" class="ps-post-author__link float-left">
+                <img src="../assets/img/author1.jpg" alt="" class="ps-post-author__img">
+              </a>
+              <a href="#" class="ps-post-author__link ps-post-author__name">Henry Little</a>
+              <time class="ps-post-info__time" datetime="2016-04-28 10:15">Apri 28, 2016   10:15</time>
+
+              <button class="ps-post-info__prop">
+                <span class="visuallyhidden">property posts</span>
+              </button>
+            </div>
+          </article>
         </div>
-        <div class="top-bar-right">
-          <ul class="menu">
-            <li class="menu-item-button">
-              <input type="search" class="round" placeholder="Search">
-              <button type="button" class="ps-search-btn"><i class="fa fa-search" aria-hidden="true"></i></button>
-            </li>
-            <li></li>
-            <li class="ps-setting__item">
-              <a href="#">Eng</a>
+
+          <!-- start ps-post_horizontal -->
+
+        <div class="column medium-12 small-12 ps-post-num">
+          <article class=" ps-post ps-post_horizontal ps-post_horizontal-small hasVideo clearfix">
+            <a href="#" class="ps-post__link ps-post__link-img">
+              <img src="../assets/img/post2.jpg" alt="image for post 10 Things To Do To Change Your Life Forever" class="ps-post__img">
+              <div class="ps-post-meta">
+                <span class="ps-post-meta__category uppercase">lifestyle</span>
+                <p class="ps-post-meta-count">
+                  <span class="ps-post-meta__comment">
+                    <i class="fa fa-comments" aria-hidden="true"></i>
+                    7
+                  </span>
+                  <span class="ps-post-meta__like text-right">
+                    <i class="fa fa-heart-o" aria-hidden="true"></i>
+                    15 
+                  </span>
+                </p>
+              </div>
+            </a>
+            <div class="ps-post-content">
+              <a href="#" class="ps-post__link">
+                <h2 class="ps-post__title">4 Natural Ways To Have Young Skin</h2>
+              </a> 
+              <p class="ps-post__excerpt">Lorem ipsum dolor sit amet, to consectetur  adipi scing elit. Nulla vehicula lorem and lacus. Vestibulum vitae mauris lorem ipsum doar.</p>
+            </div>
+            <div class="ps-post-info clearfix">
+              <a href="#" class="ps-post-author__link float-left">
+                <img src="../assets/img/author1.jpg" alt="" class="ps-post-author__img">
+              </a>
+              <a href="#" class="ps-post-author__link ps-post-author__name">Henry Little</a>
+              <time class="ps-post-info__time" datetime="2016-04-28 10:15">Apri 28, 2016   10:15</time>
+
+              <button class="ps-post-info__prop">
+                <span class="visuallyhidden">property posts</span>
+              </button>
+            </div>
+          </article>
+        </div>
+
+          <div class="column medium-12 small-6 ps-post-num">
+            <article class=" ps-post ps-post_horizontal ps-post_vertical-for-small clearfix">
+            <a href="#" class="ps-post__link ps-post__link-img">
+              <img src="../assets/img/post4.jpg" alt="image for post 10 Things To Do To Change Your Life Forever" class="ps-post__img">
+              <div class="ps-post-meta">
+                <span class="ps-post-meta__category uppercase">lifestyle</span>
+                <p class="ps-post-meta-count">
+                  <span class="ps-post-meta__comment">
+                    <i class="fa fa-comments" aria-hidden="true"></i>
+                    7
+                  </span>
+                  <span class="ps-post-meta__like text-right">
+                    <i class="fa fa-heart-o" aria-hidden="true"></i>
+                    15 
+                  </span>
+                </p>
+              </div>
+            </a>
+            <div class="ps-post-content">
+              <a href="#" class="ps-post__link">
+                <h2 class="ps-post__title">Six Hobbies That Can Help You Beat Stress</h2>
+              </a> 
+              <p class="ps-post__excerpt">Lorem ipsum dolor sit amet, to consectetur  adipi scing elit. Nulla vehicula lorem and lacus. Vestibulum vitae mauris lorem ipsum doar.</p>
+            </div>
+            <div class="ps-post-info clearfix">
+              <a href="#" class="ps-post-author__link float-left">
+                <img src="../assets/img/author4.jpg" alt="" class="ps-post-author__img">
+              </a>
+              <a href="#" class="ps-post-author__link ps-post-author__name">James Leman</a>
+              <time class="ps-post-info__time" datetime="2016-04-28 10:15">Apri 28, 2016   10:15</time>
+
+              <button class="ps-post-info__prop">
+                <span class="visuallyhidden">property posts</span>
+              </button>
+            </div>
+            </article>
+          </div>
+
+          <div class="column medium-12 small-6 ps-post-num">
+            <article class=" ps-post ps-post_horizontal ps-post_vertical-for-small ps-post_only-img clearfix">
+              <a href="#" class="ps-post__link ps-post__link-img">
+                <img src="../assets/img/post5.jpg" alt="image for post 10 Things To Do To Change Your Life Forever" class="ps-post__img">
+                <div class="ps-post-meta">
+                  <span class="ps-post-meta__category uppercase">lifestyle</span>
+                  <p class="ps-post-meta-count">
+                    <span class="ps-post-meta__comment">
+                      <i class="fa fa-comments" aria-hidden="true"></i>
+                      7
+                    </span>
+                    <span class="ps-post-meta__like text-right">
+                      <i class="fa fa-heart-o" aria-hidden="true"></i>
+                      15 
+                    </span>
+                  </p>
+                </div>
+              </a>
+              <div class="ps-post-content">
+                <a href="#" class="ps-post__link">
+                  <h2 class="ps-post__title">10 Singals From Your Body Telling You Should Sleep More</h2>
+                </a> 
+                <p class="ps-post__excerpt">Lorem ipsum dolor sit amet, to consectetur  adipi scing elit. Nulla vehicula lorem and lacus. Vestibulum vitae mauris lorem ipsum doar.</p>
+              </div>
+              <div class="ps-post-info clearfix">
+                <a href="#" class="ps-post-author__link float-left">
+                  <img src="../assets/img/author2.jpg" alt="" class="ps-post-author__img">
+                </a>
+                <a href="#" class="ps-post-author__link ps-post-author__name">Benjamin Miller</a>
+                <time class="ps-post-info__time" datetime="2016-04-28 10:15">Apri 28, 2016   10:15</time>
+
+                <button class="ps-post-info__prop">
+                  <span class="visuallyhidden">property posts</span>
+                </button>
+              </div>
+            </article>
+          </div>
+          <!-- end ps-post_horizontal -->
+
+          <!-- start vertical small -->
+            <div class="column medium-4 small-6 ps-post-num">              
+              <article class=" ps-post flex-container ps-post_vertical-for-small ps-post_only-img flex-dir-column ps-post_small hasVideo">
+                <a href="#" class="ps-post__link ps-post__link-img">
+                  <img src="../assets/img/post6.jpg" alt="image for post 10 Things To Do To Change Your Life Forever" class="ps-post__img">
+                  <div class="ps-post-meta">
+                    <span class="ps-post-meta__category uppercase">lifestyle</span>
+                    <p class="ps-post-meta-count">
+                      <span class="ps-post-meta__comment">
+                        <i class="fa fa-comments" aria-hidden="true"></i>
+                        7
+                      </span>
+                      <span class="ps-post-meta__like text-right">
+                        <i class="fa fa-heart-o" aria-hidden="true"></i>
+                        15
+                      </span>
+                    </p>
+                  </div></a>
+                  <div class="ps-post-content">
+                    <a href="#" class="ps-post__link">
+                      <h2 class="ps-post__title">
+                        Food That Actually Taste 
+                        Better When You Freeze 
+                      </h2>
+                    </a> 
+                    <p class="ps-post__excerpt">Lorem ipsum dolor sit amet, to consectetur  adipi scing elit. Nulla vel vehicula lorem and lacus. Vestibulum vitae mauris. </p>
+                  </div>
+                  <div class="ps-post-info clearfix">
+                    <a href="#" class="ps-post-author__link float-left">
+                      <img src="../assets/img/author3.jpg" alt="James Leman" class="ps-post-author__img">
+                    </a>
+                    <a href="#" class="ps-post-author__link ps-post-author__name">James Leman</a>
+                    <time class="ps-post-info__time" datetime="2016-04-28 10:15">Apri 28, 2016   10:15</time>
+
+                    <button class="ps-post-info__prop">
+                      <span class="visuallyhidden">property posts</span>
+                    </button>
+                  </div>
+              </article>
+            </div>
+
+            <div class="column medium-4 small-6 ps-post-num">
+              <article class=" ps-post flex-container flex-dir-column ps-post_small hasVideo ps-post_vertical-for-small">
+                  <a href="#" class="ps-post__link ps-post__link-img">
+                    <img src="../assets/img/post7.jpg" alt="image for post 10 Things To Do To Change Your Life Forever" class="ps-post__img">
+                    <div class="ps-post-meta">
+                      <span class="ps-post-meta__category uppercase">trip</span>
+                      <p class="ps-post-meta-count">
+                        <span class="ps-post-meta__comment">
+                          <i class="fa fa-comments" aria-hidden="true"></i>
+                          7
+                        </span>
+                        <span class="ps-post-meta__like text-right">
+                          <i class="fa fa-heart-o" aria-hidden="true"></i>
+                          15
+                        </span>
+                      </p>
+                    </div>
+                  </a>
+                  <div class="ps-post-content">
+                    <a href="#" class="ps-post__link">
+                      <h2 class="ps-post__title">Why It’s Amazing To Date People Who Love Traveling</h2>
+                    </a> 
+                    <p class="ps-post__excerpt">Lorem ipsum dolor sit amet, to consectetur  adipi scing elit. Nulla vel vehicula lorem and lacus. Vestibulum vitae mauris.</p>
+                  </div>
+                  <div class="ps-post-info clearfix">
+                    <a href="#" class="ps-post-author__link float-left">
+                      <img src="../assets/img/author4.jpg" alt="" class="ps-post-author__img">
+                    </a>
+                    <a href="#" class="ps-post-author__link ps-post-author__name">Benjamin Miller</a>
+                    <time class="ps-post-info__time" datetime="2016-04-28 10:15">Apri 28, 2016   10:15</time>
+
+                    <button class="ps-post-info__prop">
+                      <span class="visuallyhidden">property posts</span>
+                    </button>
+                  </div>
+              </article>
+            </div>
+
+            <div class="column medium-4 small-12 ps-post-num">
+              <article class=" ps-post flex-container ps-post_only-img flex-dir-column ps-post_small ps-post_only-img ">
+                  <a href="#" class="ps-post__link ps-post__link-img">
+                    <img src="../assets/img/post8.jpg" alt="image for post 10 Things To Do To Change Your Life Forever" class="ps-post__img">
+                    <div class="ps-post-meta">
+                      <span class="ps-post-meta__category uppercase">lifestyle</span>
+                      <p class="ps-post-meta-count">
+                        <span class="ps-post-meta__comment">
+                          <i class="fa fa-comments" aria-hidden="true"></i>
+                          7
+                        </span>
+                        <span class="ps-post-meta__like text-right">
+                          <i class="fa fa-heart-o" aria-hidden="true"></i>
+                          15
+                        </span>
+                      </p>
+                    </div></a>
+                    <div class="ps-post-content">
+                      <a href="#" class="ps-post__link">
+                        <h2 class="ps-post__title">5 Useful Tips for Novice Painters</h2>
+                      </a> 
+                      <p class="ps-post__excerpt">Lorem ipsum dolor sit amet, to consectetur  adipi scing elit. Nulla vel vehicula lorem and lacus. Vestibulum vitae mauris. </p>
+                    </div>
+                    <div class="ps-post-info clearfix">
+                      <a href="#" class="ps-post-author__link float-left">
+                        <img src="../assets/img/author1.jpg" alt="" class="ps-post-author__img">
+                      </a>
+                      <a href="#" class="ps-post-author__link ps-post-author__name">Henry Little</a>
+                      <time class="ps-post-info__time" datetime="2016-04-28 10:15">Apri 28, 2016   10:15</time>
+
+                      <button class="ps-post-info__prop">
+                        <span class="visuallyhidden">property posts</span>
+                      </button>
+                    </div>
+              </article>
+            </div>
+
+              <!-- end vertical small -->
+
+              <!-- start vertical middle -->
+              <div class="column medium-6 small-12 ps-post-num">
+                <article class=" ps-post  hasVideo">
+                  <a href="#" class="ps-post__link ps-post__link-img">
+                    <img src="../assets/img/post9.jpg" alt="image for post 10 Things To Do To Change Your Life Forever" class="ps-post__img">
+                    <div class="ps-post-meta">
+                      <span class="ps-post-meta__category uppercase">trip</span>
+                      <p class="ps-post-meta-count">
+                        <span class="ps-post-meta__comment">
+                          <i class="fa fa-comments" aria-hidden="true"></i>
+                          7
+                        </span>
+                        <span class="ps-post-meta__like text-right">
+                          <i class="fa fa-heart-o" aria-hidden="true"></i>
+                          15
+                        </span>
+                      </p>
+                    </div>
+                  </a>
+                  <div class="ps-post-content">
+                    <a href="#" class="ps-post__link">
+                      <h2 class="ps-post__title">Why It’s Amazing To Date People Who Love Traveling</h2>
+                    </a> 
+                    <p class="ps-post__excerpt">Lorem ipsum dolor sit amet, to consectetur  adipi scing elit. Nulla vel vehicula lorem and lacus. Vestibulum vitae mauris.</p>
+                  </div>
+                  <div class="ps-post-info clearfix">
+                    <a href="#" class="ps-post-author__link float-left">
+                      <img src="../assets/img/author4.jpg" alt="" class="ps-post-author__img">
+                    </a>
+                    <a href="#" class="ps-post-author__link ps-post-author__name">Benjamin Miller</a>
+                    <time class="ps-post-info__time" datetime="2016-04-28 10:15">Apri 28, 2016   10:15</time>
+
+                    <button class="ps-post-info__prop">
+                      <span class="visuallyhidden">property posts</span>
+                    </button>
+                  </div>
+                </article>
+              </div>
+
+              <div class="column medium-6 small-12 ps-post-num">
+                <article class=" ps-post ps-post_only-img">
+                  <a href="#" class="ps-post__link ps-post__link-img">
+                    <img src="../assets/img/post10.jpg" alt="image for post 10 Things To Do To Change Your Life Forever" class="ps-post__img">
+                    <div class="ps-post-meta">
+                      <span class="ps-post-meta__category uppercase">lifestyle</span>
+                      <p class="ps-post-meta-count">
+                        <span class="ps-post-meta__comment">
+                          <i class="fa fa-comments" aria-hidden="true"></i>
+                          7
+                        </span>
+                        <span class="ps-post-meta__like text-right">
+                          <i class="fa fa-heart-o" aria-hidden="true"></i>
+                          15
+                        </span>
+                      </p>
+                    </div>
+                  </a>
+                  <div class="ps-post-content">
+                    <a href="#" class="ps-post__link">
+                      <h2 class="ps-post__title">5 Useful Tips for Novice Painters</h2>
+                    </a> 
+                    <p class="ps-post__excerpt">Lorem ipsum dolor sit amet, to consectetur  adipi scing elit. Nulla vel vehicula lorem and lacus. Vestibulum vitae mauris. </p>
+                  </div>
+                  <div class="ps-post-info clearfix">
+                    <a href="#" class="ps-post-author__link float-left">
+                      <img src="../assets/img/author1.jpg" alt="" class="ps-post-author__img">
+                    </a>
+                    <a href="#" class="ps-post-author__link ps-post-author__name">Henry Little</a>
+                    <time class="ps-post-info__time" datetime="2016-04-28 10:15">Apri 28, 2016   10:15</time>
+
+                    <button class="ps-post-info__prop">
+                      <span class="visuallyhidden">property posts</span>
+                    </button>
+                  </div>
+                </article>
+              </div>
+              <!-- end vertical small -->
+
+              <p class="ps-blog-more text-right"> 
+                <a href="#" class="ps-blog-more__link round">
+                  <span>More
+                  </a>
+                </p>
+              </div>
+
+              <div class="columns medium-4 ps-sidebar">
+                <aside class="ps-sidebar-search ps-sidebar__item">
+                  <input type="search" class="ps-sidebar-search__input round" placeholder="Search">
+                  <button type="submit" class="round ps-sidebar-search__button"><i class="fa fa-search" aria-hidden="true"></i></button>
+                </aside>
+
+                <aside class="ps-sidebar__item ps-sidebar-category">
+                  <h4 class="ps-sidebar__title uppercase">categories</h4>
+                  <ul class="ps-category-list">
+                    <li class="ps-category-list__item">
+                      <a href="#">Photography</a>
+                      <b class="ps-category-count">195</b>
+                    </li>
+                    <li class="ps-category-list__item">
+                      <a href="#">Illustration</a>
+                      <b class="ps-category-count">15</b>
+                    </li>
+                    <li class="ps-category-list__item">
+                      <a href="#">Graphic Design</a>
+                      <b class="ps-category-count">36</b>
+                    </li>
+                    <li class="ps-category-list__item">
+                      <a href="#">Web design</a>
+                      <b class="ps-category-count">220</b>
+                    </li>
+                    <li class="ps-category-list__item">
+                      <a href="#">Videography</a>
+                      <b class="ps-category-count">17</b>
+                    </li>
+                  </ul>
+                </aside>
+
+                <aside class="ps-sidebar__item ps-sidebar-subscribe">
+                  <h4 class="ps-sidebar__title uppercase">subcribe </h4>
+                  <div class="aside-form">
+                    <form action="#" method="post" class="ps-sidebar-subscribe__form">
+                      <label for="sb-name">
+                        <span>Name</span>
+                        <input type="text" id="sb-name" placeholder="Igor Ten" required>
+                      </label>
+
+                      <label for="sb-email">
+                        <span>Email</span>
+                        <input type="email" id="sb-email" placeholder="email@adress.com" required>
+                      </label>
+
+                      <button type="submit" class="uppercase button">subcribe</button>
+                    </form> 
+
+                  </div>
+                  <div class="aside-social">
+                    <ul class="ps-social">
+                      <li class="ps-social__item "><a href="#" class="ps-social__link ps-social__link_fb"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                      <li class="ps-social__item "><a href="#" class="ps-social__link ps-social__link_tw"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                      <li class="ps-social__item "><a href="#" class="ps-social__link ps-social__link_vk"><i class="fa fa-vk" aria-hidden="true"></i></a></li>
+                      <li class="ps-social__item "><a href="#" class="ps-social__link ps-social__link_pn"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+                      <li class="ps-social__item "><a href="#" class="ps-social__link ps-social__link_tr"><i class="fa fa-tumblr" aria-hidden="true"></i></a></li>
+
+                      <li class="ps-social__item "><a href="#" class="ps-social__link ps-social__link_dr"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+                    </ul>    
+                  </div>    
+                </aside>
+
+                <aside class="ps-sidebar__item ps-sidebar-tab">
+                  <h4 class="ps-sidebar__title uppercase">tab post widget</h4>
+
+                  <ul class="tabs " data-tabs id="collapsing-tabs">
+                    <li class="tabs-title is-active"><a href="#recent" class="uppercase ps-sidebar-tab__button text-center" aria-selected="true">recent post</a></li>
+                    <li class="tabs-title"><a href="#popular" class="uppercase ps-sidebar-tab__button text-center">popular post</a></li>
+                  </ul>
+
+                  <div class="tabs-content" data-tabs-content="collapsing-tabs">
+                    <div class="tabs-panel is-active" id="recent">
+                      <ul >
+                        <li class="ps-sidebar-post">
+                          <a href="">
+                            <img src="../assets/img/wd-post1.jpg" class="float-left ps-sidebar-post__img" alt="Duis commodo elit sed nisi molestie">
+                            <p class="ps-sidebar-post__info">
+                              <time>April 28, 2016</time>
+                              <span class="float-right">
+                                <i class="fa fa-comments" aria-hidden="true"></i>
+                                17
+                              </span>
+                            </p>
+                            <h5 class="ps-sidebar-post__title">Duis commodo elit sed nisi molestie</h5>              
+                          </a>
+                        </li>
+
+                        <li class="ps-sidebar-post">
+                          <a href="">
+                            <img src="../assets/img/wd-post2.jpg" class="float-left ps-sidebar-post__img" alt="Duis commodo elit sed nisi molestie">
+                            <p class="ps-sidebar-post__info">
+                              <time>April 28, 2016</time>
+                              <span class="float-right">
+                                <i class="fa fa-comments" aria-hidden="true"></i>
+                                17
+                              </span>
+                            </p>
+                            <h5 class="ps-sidebar-post__title">Duis commodo elit sed nisi molestie</h5>              
+                          </a>
+                        </li>
+
+                        <li class="ps-sidebar-post">
+                          <a href="">
+                            <img src="../assets/img/wd-post3.jpg" class="float-left ps-sidebar-post__img" alt="Duis commodo elit sed nisi molestie">
+                            <p class="ps-sidebar-post__info">
+                              <time>April 28, 2016</time>
+                              <span class="float-right">
+                                <i class="fa fa-comments" aria-hidden="true"></i>
+                                17
+                              </span>
+                            </p>
+                            <h5 class="ps-sidebar-post__title">Duis commodo elit sed nisi molestie</h5>              
+                          </a>
+                        </li>
+
+                        <li class="ps-sidebar-post">
+                          <a href="">
+                            <img src="../assets/img/wd-post4.jpg" class="float-left ps-sidebar-post__img" alt="Duis commodo elit sed nisi molestie">
+                            <p class="ps-sidebar-post__info">
+                              <time>April 28, 2016</time>
+                              <span class="float-right">
+                                <i class="fa fa-comments" aria-hidden="true"></i>
+                                17
+                              </span>
+                            </p>
+                            <h5 class="ps-sidebar-post__title">Duis commodo elit sed nisi molestie</h5>              
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="tabs-panel" id="popular">
+                      <ul >
+                        <li class="ps-sidebar-post">
+                          <a href="">
+                            <img src="../assets/img/wd-post3.jpg" class="float-left ps-sidebar-post__img" alt="Duis commodo elit sed nisi molestie">
+                            <p class="ps-sidebar-post__info">
+                              <time>April 28, 2016</time>
+                              <span class="float-right">
+                                <i class="fa fa-comments" aria-hidden="true"></i>
+                                17
+                              </span>
+                            </p>
+                            <h5 class="ps-sidebar-post__title">Duis commodo elit sed nisi molestie</h5>              
+                          </a>
+                        </li>
+
+                        <li class="ps-sidebar-post">
+                          <a href="">
+                            <img src="../assets/img/wd-post2.jpg" class="float-left ps-sidebar-post__img" alt="Duis commodo elit sed nisi molestie">
+                            <p class="ps-sidebar-post__info">
+                              <time>April 28, 2016</time>
+                              <span class="float-right">
+                                <i class="fa fa-comments" aria-hidden="true"></i>
+                                17
+                              </span>
+                            </p>
+                            <h5 class="ps-sidebar-post__title">Duis commodo elit sed nisi molestie</h5>              
+                          </a>
+                        </li>
+
+                        <li class="ps-sidebar-post">
+                          <a href="">
+                            <img src="../assets/img/wd-post4.jpg" class="float-left ps-sidebar-post__img" alt="Duis commodo elit sed nisi molestie">
+                            <p class="ps-sidebar-post__info">
+                              <time>April 28, 2016</time>
+                              <span class="float-right">
+                                <i class="fa fa-comments" aria-hidden="true"></i>
+                                17
+                              </span>
+                            </p>
+                            <h5 class="ps-sidebar-post__title">Duis commodo elit sed nisi molestie</h5>              
+                          </a>
+                        </li>
+
+                        <li class="ps-sidebar-post">
+                          <a href="">
+                            <img src="../assets/img/wd-post1.jpg" class="float-left ps-sidebar-post__img" alt="Duis commodo elit sed nisi molestie">
+                            <p class="ps-sidebar-post__info">
+                              <time>April 28, 2016</time>
+                              <span class="float-right">
+                                <i class="fa fa-comments" aria-hidden="true"></i>
+                                17
+                              </span>
+                            </p>
+                            <h5 class="ps-sidebar-post__title">Duis commodo elit sed nisi molestie</h5>              
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </aside>
+
+                <aside class="ps-sidebar__item ps-sidebar-tag">
+                  <h4 class="ps-sidebar__title uppercase">tags</h4>
+                  <div class="ps-sidebar-tag-list">
+                    <a href="#" class="ps-sidebar-tag-list__item">Photography</a>
+                    <a href="#" class="ps-sidebar-tag-list__item">Webdesign</a>
+                    <a href="#" class="ps-sidebar-tag-list__item">Youtube</a>
+                    <a href="#" class="ps-sidebar-tag-list__item">Envato</a>
+                    <a href="#" class="ps-sidebar-tag-list__item">Art</a>
+                    <a href="#" class="ps-sidebar-tag-list__item">Themefotest</a>
+                    <a href="#" class="ps-sidebar-tag-list__item">Illustration</a>
+                  </div>
+                </aside>
+              </div>
+            </section>
+
+            <section class="ps-instagram hide-for-small-only">
+              <div class='ps-instagram__item'><img src="../assets/img/ins1.jpg" alt="photo from instagram"></div>
+              <div class='ps-instagram__item'><img src="../assets/img/ins2.jpg" alt="photo from instagram"></div>
+              <div class='ps-instagram__item'><img src="../assets/img/ins3.jpg" alt="photo from instagram"></div>
+              <div class='ps-instagram__item'><img src="../assets/img/ins4.jpg" alt="photo from instagram"></div>
+              <div class='ps-instagram__item'><img src="../assets/img/ins5.jpg" alt="photo from instagram"></div>
+              <div class='ps-instagram__item'><img src="../assets/img/ins6.jpg" alt="photo from instagram"></div>
+              <div class='ps-instagram__item'><img src="../assets/img/ins7.jpg" alt="photo from instagram"></div>
+              <div class='ps-instagram__item'><img src="../assets/img/ins8.jpg" alt="photo from instagram"></div>
+            </section>
+
+            <section class="ps-subscribe">
+              <div class="row">
+                <h3 class="ps-subscribe__title columns medium-7">Subscribe to our newsletter</h3>
+                <form action="#" method="post" class="ps-subscribe__form columns medium-5">
+                  <input  type="email" class="ps-subscribe__input round" required placeholder="Email Address">
+                  <button class="button ps-subscribe__button uppercase round text-center" type="submit">subscribe</button>
+                </form>
+              </div>
+            </section>
+          </main>
+
+          <footer class="ps-footer">
+            <div class="row ps-widget">
+              <div class="columns medium-3 small-12 ps-widget__pages">
+                <h4 class="ps-widget__title uppercase">pages widget</h4>
+
+                <ul class="vertical menu ps-widget-menu" data-accordion-menu>
+                  <li>
+                    <a href="#">home</a>
+                    <ul class="menu vertical nested">
+                      <li><a href="#">home 1</a></li>
+                      <li><a href="#">home 2</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">pages</a>
+                    <ul class="menu vertical nested">
+                      <li><a href="#">Service</a></li>
+                      <li><a href="#">FAQ</a></li>
+                      <li><a href="#">About</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">portfolio</a>
+                    <ul class="menu vertical nested">
+                      <li><a href="#">Web design</a></li>
+                      <li><a href="#">Videography</a></li>
+                      <li><a href="#">Photography</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">blog</a>
+                    <ul class="menu vertical nested">
+                      <li><a href="#">Inspiration</a></li>
+                      <li><a href="#">lifestyle</a></li>
+                      <li><a href="#">trip</a></li>
+                      <li><a href="#">photography</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">shop</a>
+                    <ul class="menu vertical nested">
+                      <li><a href="#">Illustration</a></li>
+                      <li><a href="#">Item 1B</a></li>
+                    </ul>
+                  </li>            
+                </ul>
+
+              </div>
+
+              <div class="columns medium-3 small-12 ps-widget__social ps-widget">
+                <h4 class="ps-widget__title uppercase">twitter widget</h4>
+
+                <ul class="ps-widget-tw">
+                  <li class="ps-widget-tw-item">
+                    <p class="ps-widget-tw-item__mes">
+                      <a href="#" class="ps-widget-tw-item__link float-left"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                      <a href="#">@PASCO</a>, Duis commodo elit sed nisi molestie
+                    </p>
+                    <p class="ps-widget-tw-info">
+                      <time class="ps-widget-tw__time">2 hours ago </time>
+                      →  
+                      <button class="ps-widget-tw__button">Reply</button>
+                      <button class="ps-widget-tw__button">Retweet</button>
+                      <button class="ps-widget-tw__button">Favorite</button>
+                    </p>
+                  </li>
+
+                  <li class="ps-widget-tw-item">
+                    <p class="ps-widget-tw-item__mes">
+                      <a href="#" class="ps-widget-tw-item__link float-left"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                      <a href="#">@PASCO</a>, Duis commodo elit sed nisi molestie
+                    </p>
+                    <p class="ps-widget-tw-info">
+                      <time class="ps-widget-tw__time">2 hours ago </time>
+                      →  
+                      <button class="ps-widget-tw__button">Reply</button>
+                      <button class="ps-widget-tw__button">Retweet</button>
+                      <button class="ps-widget-tw__button">Favorite</button>
+                    </p>
+                  </li>
+                  <li class="ps-widget-tw-item">
+                    <p class="ps-widget-tw-item__mes">
+                      <a href="#" class="ps-widget-tw-item__link float-left"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                      <a href="#">@PASCO</a>, Duis commodo elit sed nisi molestie
+                    </p>
+                    <p class="ps-widget-tw-info">
+                      <time class="ps-widget-tw__time">2 hours ago </time>
+                      →  
+                      <button class="ps-widget-tw__button">Reply</button>
+                      <button class="ps-widget-tw__button">Retweet</button>
+                      <button class="ps-widget-tw__button">Favorite</button>
+                    </p>
+                  </li>
+                </ul>
+
+                <h4 class="ps-widget__title uppercase">social widget</h4>
+
+                <ul class="ps-social">
+                  <li class="ps-social__item "><a href="#" class="ps-social__link ps-social__link_fb"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                  <li class="ps-social__item "><a href="#" class="ps-social__link ps-social__link_tw"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                  <li class="ps-social__item "><a href="#" class="ps-social__link ps-social__link_vk"><i class="fa fa-vk" aria-hidden="true"></i></a></li>
+                  <li class="ps-social__item "><a href="#" class="ps-social__link ps-social__link_pn"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+                  <li class="ps-social__item "><a href="#" class="ps-social__link ps-social__link_tr"><i class="fa fa-tumblr" aria-hidden="true"></i></a></li>
+
+                  <li class="ps-social__item "><a href="#" class="ps-social__link ps-social__link_dr"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+                </ul>
+              </div>
+
+              <div class="columns medium-3 small-12 ps-widget-flickr">
+                <h4 class="ps-widget__title uppercase">flickr widget</h4>
+
+                <div class="ps-widget-flickr-list text-center">
+                  <a href="#"><img src="../assets/img/fl1.jpg" alt="photo from flicker"></a>
+                  <a href="#"><img src="../assets/img/fl2.jpg" alt="photo from flicker"></a>
+                  <a href="#"><img src="../assets/img/fl3.jpg" alt="photo from flicker"></a>
+                  <a href="#"><img src="../assets/img/fl4.jpg" alt="photo from flicker"></a>
+                  <a href="#"><img src="../assets/img/fl5.jpg" alt="photo from flicker"></a>
+                  <a href="#"><img src="../assets/img/fl6.jpg" alt="photo from flicker"></a>
+                  <a href="#"><img src="../assets/img/fl7.jpg" alt="photo from flicker"></a>
+                  <a href="#"><img src="../assets/img/fl8.jpg" alt="photo from flicker"></a>
+                  <a href="#"><img src="../assets/img/fl9.jpg" alt="photo from flicker"></a>
+                </div>
+              </div>
+              <div class="columns medium-3 small-12 ps-widget__form">
+                <h4 class="ps-widget__title uppercase">news letter</h4>
+
+                <form action="#" method="post" class="ps-form">
+                  <input type="text" required placeholder="Name">
+                  <input  type="email" name="email" required placeholder="Email Address">
+                  <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                  <button class="button uppercase text-center" type="submit">subscribe</button>
+                </form>
+              </div>
+            </div>
+
+            <div class="ps-footer-bar hide-for-small-only">
+              <div class="row">
+                <div class="top-bar-left">
+                  <ul class="menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Pages</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">components</a></li>
+                    <li><a href="#">Features</a></li>
+                  </ul>
+                </div>
+                <div class="top-bar-right">
+                  <ul class="menu">
+                    <li class="menu-search-button">
+                      <input type="search" class="round" placeholder="Search">
+                      <button type="button" class="ps-search-btn"><i class="fa fa-search" aria-hidden="true"></i></button>
+                    </li>
+                    <li></li>
+                    <li class="ps-setting__item">
+                      <a href="#">Eng</a>
              <!--  <ul class="menu vertical">
                 <li><a href="#">Eng</a></li>
                 <li><a href="#">Rus</a></li>
@@ -943,7 +963,7 @@
             </li>
           </ul>
         </div>
+      </div>
     </div>
-  </div>
-</footer>
+  </footer>
 
